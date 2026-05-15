@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="purpose_application" xml:lang="en-us">
+  <title>Purpose/Application</title>
+  <shortdesc>Describes how to navigate and use the SCADA operating screens for the SBS.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Purpose</keyword>
+        <keyword>Application</keyword>
+        <keyword>Describes</keyword>
+        <keyword>navigate</keyword>
+        <keyword>SCADA</keyword>
+        <keyword>operating</keyword>
+        <indexterm>Purpose</indexterm>
+        <indexterm>Application</indexterm>
+        <indexterm>Describes</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <taskbody>  <context>
+    <p>Describes how to navigate and use the SCADA operating screens for the SBS.</p>
+  </context></taskbody>
+</task>

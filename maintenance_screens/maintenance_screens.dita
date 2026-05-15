@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="_Toc119676808" xml:lang="en-us">
+  <title>Maintenance Screens</title>
+  <shortdesc>Click on the Maintenance tab at the top of the screen to display the main</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Maintenance</keyword>
+        <keyword>screen</keyword>
+        <keyword>Screens</keyword>
+        <keyword>Click</keyword>
+        <keyword>display</keyword>
+        <keyword>shown</keyword>
+        <indexterm>Maintenance</indexterm>
+        <indexterm>screen</indexterm>
+        <indexterm>Screens</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <taskbody>  <context>
+    <p>
+      <fig>
+        <image href="../media/image56.png"/>
+      </fig>
+    </p><ul id="ul_04580806">
+      <li>Network – shows how the individual network components are connected, and whether they communicate with each other.</li>
+      <li>Maintenance – provides an overview of the connected PLC systems and their underlaying Profinet devices.</li>
+      <li>Scale Adjustment – displays the status of the minors scales, and is used to calibrate them.</li>
+    </ul><p>
+      <fig>
+        <image href="../media/image57.png"/>
+      </fig>
+      <b>Main Screen and Popup Window for the Maintenance Operation</b>
+    </p><p>
+      <fig>
+        <image href="../media/image58.png"/>
+      </fig>
+    </p><p>
+      <fig>
+        <image href="../media/image59.png"/>
+      </fig>
+    </p><p>
+      <fig>
+        <image href="../media/image60.png"/>
+      </fig>
+    </p>
+  </context>
+  <steps id="steps_04581002">
+    <step>
+      <cmd>Click on the Maintenance tab at the top of the screen to display the main Maintenance screen, shown below. (You can also click on the Plant Network button on the bottom of the screen.)</cmd>
+    </step>
+    <step>
+      <cmd>Click on the down arrow button to display the popup window to navigate to the following operation screens, which are shown on the following pages:</cmd>
+    </step>
+  </steps></taskbody>
+</task>

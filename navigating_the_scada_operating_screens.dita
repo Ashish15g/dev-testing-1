@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="navigating_the_scada_operating_screens" xml:lang="en-us">
+  <title>Navigating the SCADA Operating Screens</title>
+  <shortdesc>2022-10-01</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Navigating</keyword>
+        <keyword>SCADA</keyword>
+        <keyword>Operating</keyword>
+        <keyword>Screens</keyword>
+        <indexterm>Navigating</indexterm>
+        <indexterm>SCADA</indexterm>
+        <indexterm>Operating</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <body>
+    <p>2022-10-01</p>
+  </body>
+</topic>

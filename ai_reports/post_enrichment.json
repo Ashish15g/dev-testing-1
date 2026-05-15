@@ -1,0 +1,1482 @@
+{
+  "job_id": "3a58c1d4-6008-422b-9308-c16124728d23",
+  "mode": "enrich-only",
+  "output_dir": "/app/output/3a58c1d4-6008-422b-9308-c16124728d23",
+  "processed_at": "2026-05-15T04:58:11.252279+00:00",
+  "counts": {
+    "dita_files_total": 15,
+    "ditamap_files_total": 14,
+    "topics_reclassified": 13,
+    "issues_fixed_by_zone1": 1,
+    "issues_fixed_by_ai": 17,
+    "issues_remaining": 62,
+    "ai_obligations_missed": 1,
+    "new_issues_by_ai": 1,
+    "pending_suggestions": 27
+  },
+  "quality_metrics": {
+    "element_validation_success_pct": 73,
+    "attribute_mapping_success_pct": 100,
+    "href_resolution_success_pct": 100,
+    "table_resolution": {
+      "validated": 4,
+      "total": 4,
+      "success_pct": 100
+    }
+  },
+  "token_usage": {
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "total_cost_usd": 0,
+    "by_model": {}
+  },
+  "element_counts": {
+    "ol": 0,
+    "ul": 7,
+    "table": 4,
+    "image": 56,
+    "crosslink": 0,
+    "hyperlink": 0,
+    "concept": 3,
+    "task": 5,
+    "reference": 0,
+    "topic": 7
+  },
+  "enrichment_summary": [
+    {
+      "file": "approval/approval.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "batch_system_screens/batch_system_screens.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "comments/comments.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "equipment_needed/equipment_needed.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "maintenance_screens/maintenance_screens.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "navigating_the_scada_operating_screens.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "ppe_required/general.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "ppe_required/ppe_required.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "medium",
+      "reclassified": false,
+      "skipped": true
+    },
+    {
+      "file": "purpose_application/purpose_application.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "revision_history/revision_history.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "safety_controls/safety_controls.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "safety_hazards/safety_hazards.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "silo_feeding_screens/silo_feeding_screens.dita",
+      "original_type": "topic",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    }
+  ],
+  "structural_issues_remaining": [
+    {
+      "severity": "WARNING",
+      "category": "empty_body",
+      "file": "ppe_required/ppe_required.dita",
+      "message": "<conbody> exists but has no child elements or text content",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "ppe_required/ppe_required.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "silo_feeding_screens/silo_feeding_screens.dita",
+      "message": "<image> #1 (href='../media/image35.png') has no alt text \u2014 required for accessibility",
+      "line": 27
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "silo_feeding_screens/silo_feeding_screens.dita",
+      "message": "<image> #2 (href='../media/image36.png') has no alt text \u2014 required for accessibility",
+      "line": 32
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "silo_feeding_screens/silo_feeding_screens.dita",
+      "message": "<image> #3 (href='../media/image37.png') has no alt text \u2014 required for accessibility",
+      "line": 36
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "maintenance_screens/maintenance_screens.dita",
+      "message": "<image> #1 (href='../media/image56.png') has no alt text \u2014 required for accessibility",
+      "line": 27
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "maintenance_screens/maintenance_screens.dita",
+      "message": "<image> #2 (href='../media/image57.png') has no alt text \u2014 required for accessibility",
+      "line": 35
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "maintenance_screens/maintenance_screens.dita",
+      "message": "<image> #3 (href='../media/image58.png') has no alt text \u2014 required for accessibility",
+      "line": 40
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "maintenance_screens/maintenance_screens.dita",
+      "message": "<image> #4 (href='../media/image59.png') has no alt text \u2014 required for accessibility",
+      "line": 44
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "maintenance_screens/maintenance_screens.dita",
+      "message": "<image> #5 (href='../media/image60.png') has no alt text \u2014 required for accessibility",
+      "line": 48
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 73
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #1 (href='../media/image1.png') has no alt text \u2014 required for accessibility",
+      "line": 29
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #2 (href='../media/image2.png') has no alt text \u2014 required for accessibility",
+      "line": 39
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #3 (href='../media/image3.png') has no alt text \u2014 required for accessibility",
+      "line": 58
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #4 (href='../media/image4.png') has no alt text \u2014 required for accessibility",
+      "line": 67
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #5 (href='../media/image5.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 96
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #6 (href='../media/image6.png') has no alt text \u2014 required for accessibility",
+      "line": 107
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #7 (href='../media/image7.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 118
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #8 (href='../media/image8.png') has no alt text \u2014 required for accessibility",
+      "line": 129
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #9 (href='../media/image9.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 140
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #10 (href='../media/image10.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 151
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #11 (href='../media/image11.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 154
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #12 (href='../media/image14.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 157
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #13 (href='../media/image15.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 160
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #14 (href='../media/image18.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 171
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #15 (href='../media/image19.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 174
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #16 (href='../media/image20.png') has no alt text \u2014 required for accessibility",
+      "line": 185
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #17 (href='../media/image21.png') has no alt text \u2014 required for accessibility",
+      "line": 196
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #18 (href='../media/image22.png') has no alt text \u2014 required for accessibility",
+      "line": 199
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #19 (href='../media/image23.png') has no alt text \u2014 required for accessibility",
+      "line": 202
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #20 (href='../media/image24.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 213
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #21 (href='../media/image25.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 224
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #22 (href='../media/image26.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 235
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #23 (href='../media/image27.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 246
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #24 (href='../media/image28.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 257
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #25 (href='../media/image29.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 268
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #26 (href='../media/image30.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 271
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #27 (href='../media/image31.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 282
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #28 (href='../media/image32.jpeg') has no alt text \u2014 required for accessibility",
+      "line": 293
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #29 (href='../media/image33.png') has no alt text \u2014 required for accessibility",
+      "line": 308
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "message": "<image> #30 (href='../media/image34.png') has no alt text \u2014 required for accessibility",
+      "line": 318
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_system_screens/batch_system_screens.dita",
+      "message": "<image> #1 (href='../media/image38.png') has no alt text \u2014 required for accessibility",
+      "line": 38
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_system_screens/batch_system_screens.dita",
+      "message": "<image> #2 (href='../media/image39.png') has no alt text \u2014 required for accessibility",
+      "line": 43
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_system_screens/batch_system_screens.dita",
+      "message": "<image> #3 (href='../media/image40.png') has no alt text \u2014 required for accessibility",
+      "line": 47
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_system_screens/batch_system_screens.dita",
+      "message": "<image> #4 (href='../media/image41.png') has no alt text \u2014 required for accessibility",
+      "line": 51
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_system_screens/batch_system_screens.dita",
+      "message": "<image> #5 (href='../media/image42.png') has no alt text \u2014 required for accessibility",
+      "line": 55
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_system_screens/batch_system_screens.dita",
+      "message": "<image> #6 (href='../media/image43.png') has no alt text \u2014 required for accessibility",
+      "line": 59
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_system_screens/batch_system_screens.dita",
+      "message": "<image> #7 (href='../media/image44.png') has no alt text \u2014 required for accessibility",
+      "line": 63
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_system_screens/batch_system_screens.dita",
+      "message": "<image> #8 (href='../media/image45.png') has no alt text \u2014 required for accessibility",
+      "line": 67
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_system_screens/batch_system_screens.dita",
+      "message": "<image> #9 (href='../media/image46.png') has no alt text \u2014 required for accessibility",
+      "line": 71
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_system_screens/batch_system_screens.dita",
+      "message": "<image> #10 (href='../media/image47.png') has no alt text \u2014 required for accessibility",
+      "line": 75
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_system_screens/batch_system_screens.dita",
+      "message": "<image> #11 (href='../media/image48.png') has no alt text \u2014 required for accessibility",
+      "line": 79
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_system_screens/batch_system_screens.dita",
+      "message": "<image> #12 (href='../media/image49.png') has no alt text \u2014 required for accessibility",
+      "line": 83
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "revision_history/revision_history.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "purpose_application/purpose_application.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "approval/approval.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 25
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "safety_hazards/safety_hazards.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 19
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita",
+      "message": "<image> #1 (href='../media/image50.png') has no alt text \u2014 required for accessibility",
+      "line": 33
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita",
+      "message": "<image> #2 (href='../media/image51.png') has no alt text \u2014 required for accessibility",
+      "line": 38
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita",
+      "message": "<image> #3 (href='../media/image52.png') has no alt text \u2014 required for accessibility",
+      "line": 42
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita",
+      "message": "<image> #4 (href='../media/image53.png') has no alt text \u2014 required for accessibility",
+      "line": 46
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita",
+      "message": "<image> #5 (href='../media/image54.png') has no alt text \u2014 required for accessibility",
+      "line": 50
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita",
+      "message": "<image> #6 (href='../media/image55.png') has no alt text \u2014 required for accessibility",
+      "line": 54
+    }
+  ],
+  "enrichment_quality": {
+    "summary": {
+      "dita_file_count": 15,
+      "severity_counts": {
+        "CRITICAL": 0,
+        "WARNING": 2,
+        "INFO": 0
+      },
+      "category_counts": {
+        "missing_shortdesc": 1,
+        "missing_prolog": 1
+      }
+    },
+    "issues": [
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "ppe_required/ppe_required.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_prolog",
+        "file": "ppe_required/ppe_required.dita",
+        "message": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms"
+      }
+    ]
+  },
+  "fix_diff": {
+    "fixed_by_zone1": [
+      {
+        "file": "ppe_required/ppe_required.dita",
+        "fix": "expanded self-closing <conbody/> to explicit open/close tags"
+      }
+    ],
+    "fixed_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "navigating_the_scada_operating_screens.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "ppe_required/general.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "silo_feeding_screens/silo_feeding_screens.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "equipment_needed/equipment_needed.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "safety_controls/safety_controls.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "maintenance_screens/maintenance_screens.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "batch_system_screens/batch_system_screens.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "revision_history/revision_history.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 6
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "revision_history/revision_history.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "comments/comments.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "purpose_application/purpose_application.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "approval/approval.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 6
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "approval/approval.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "safety_hazards/safety_hazards.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 6
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "safety_hazards/safety_hazards.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      }
+    ],
+    "ai_obligations_missed": [
+      {
+        "severity": "WARNING",
+        "category": "missing_prolog",
+        "file": "ppe_required/ppe_required.dita",
+        "message": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms"
+      }
+    ],
+    "new_issues_introduced_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "purpose_application/purpose_application.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      }
+    ],
+    "summary": {
+      "pre_enrichment_issue_count": 79,
+      "post_enrichment_issue_count": 65,
+      "backend_error_file_count": 0,
+      "fixed_by_zone1_count": 1,
+      "fixed_by_ai_count": 17,
+      "remaining_count": 62,
+      "ai_obligations_missed_count": 1,
+      "new_issues_count": 1
+    }
+  },
+  "ai_quality_review": {
+    "layer4": {
+      "overall_quality": "fair",
+      "topic_type_accuracy_pct": 0,
+      "recommendations": [],
+      "dita_best_practice_gaps": [],
+      "autofix": {
+        "fixed": [],
+        "flagged": [],
+        "failed": []
+      }
+    },
+    "layer5": {
+      "validation_passed": true,
+      "overall_accuracy_pct": 100,
+      "per_topic_issues": [
+        {
+          "severity": "WARNING",
+          "file": "approval/approval.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Approval' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Basic Layout of Each Screen' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Batch Cullet Weighing Screens' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "batch_system_screens/batch_system_screens.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Batch System Screens' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "comments/comments.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Comments' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "equipment_needed/equipment_needed.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Equipment Needed' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "maintenance_screens/maintenance_screens.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Maintenance Screens' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "navigating_the_scada_operating_screens.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Navigating the SCADA Operating Screens' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 18
+        },
+        {
+          "severity": "WARNING",
+          "file": "ppe_required/general.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'General' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 19
+        },
+        {
+          "severity": "WARNING",
+          "file": "ppe_required/ppe_required.dita",
+          "issue": "Empty body: <conbody> has no content or child elements",
+          "line": 5
+        },
+        {
+          "severity": "WARNING",
+          "file": "ppe_required/ppe_required.dita",
+          "issue": "Missing shortdesc element",
+          "reason": "Topic body has no content \u2014 shortdesc could not be generated from an empty source body",
+          "line": 3
+        },
+        {
+          "severity": "WARNING",
+          "file": "purpose_application/purpose_application.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Purpose/Application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "revision_history/revision_history.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Revision History' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "safety_controls/safety_controls.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Safety Controls' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "safety_hazards/safety_hazards.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Safety Hazards' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 15
+        },
+        {
+          "severity": "WARNING",
+          "file": "silo_feeding_screens/silo_feeding_screens.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Silo Feeding Screens' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        }
+      ],
+      "shortdesc_issues": [
+        {
+          "file": "ppe_required/ppe_required.dita",
+          "issue": "Missing shortdesc element"
+        }
+      ],
+      "recommendations": [
+        "16 WARNING(s) \u2014 missing id, DOCTYPE, or shortdesc"
+      ],
+      "schema_validation": {
+        "schema_passed": true,
+        "total_files": 15,
+        "valid_files": 15,
+        "invalid_files": 0,
+        "results": [
+          {
+            "file": "approval.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "basic_layout_of_each_screen.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              }
+            ]
+          },
+          {
+            "file": "batch_cullet_weighing_screens.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              }
+            ]
+          },
+          {
+            "file": "batch_system_screens.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              }
+            ]
+          },
+          {
+            "file": "comments.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "equipment_needed.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "maintenance_screens.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              }
+            ]
+          },
+          {
+            "file": "navigating_the_scada_operating_screens.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "general.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "ppe_required.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "purpose_application.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "revision_history.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "safety_controls.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "safety_hazards.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "silo_feeding_screens.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              },
+              {
+                "severity": "WARNING",
+                "element": "fig",
+                "message": "<fig> has no <title>"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "element_counts_per_file": [
+    {
+      "file": "approval/approval.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "basic_layout_of_each_screen/basic_layout_of_each_screen.dita",
+      "ol": 0,
+      "ul": 2,
+      "table": 1,
+      "image": 30,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 6,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "batch_system_screens/batch_system_screens.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 12,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "comments/comments.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "equipment_needed/equipment_needed.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "maintenance_screens/maintenance_screens.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 5,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "navigating_the_scada_operating_screens.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "ppe_required/general.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "ppe_required/ppe_required.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "purpose_application/purpose_application.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "revision_history/revision_history.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "safety_controls/safety_controls.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "safety_hazards/safety_hazards.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "silo_feeding_screens/silo_feeding_screens.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 3,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    }
+  ]
+}

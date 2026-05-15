@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="safety_controls" xml:lang="en-us">
+  <title>Safety Controls</title>
+  <shortdesc>The Hazard Communication Standard (HCS) requires chemicals to have Safety Data Sheets (SDS), please refer</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Safety</keyword>
+        <keyword>Controls</keyword>
+        <keyword>chemicals</keyword>
+        <keyword>measures</keyword>
+        <keyword>Hazard</keyword>
+        <keyword>Communication</keyword>
+        <indexterm>Safety</indexterm>
+        <indexterm>Controls</indexterm>
+        <indexterm>chemicals</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <body>
+    <ul id="ul_045808">
+      <li>The Hazard Communication Standard (HCS) requires chemicals to have Safety Data Sheets (SDS), please refer to the SDS for chemicals listed in this SOP for additional hazards, first aid measures, toxicological information, accidental release measures, and handling/storage of the chemical.</li>
+      <li>Review the Emergency Action Plan before performing work.</li>
+    </ul>
+  </body>
+</topic>

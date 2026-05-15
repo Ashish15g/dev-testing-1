@@ -1,0 +1,545 @@
+{
+  "Approval": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.0,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 28
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Approval",
+        "Manager",
+        "Representatives",
+        "MAGMA",
+        "Team",
+        "Person",
+        "Role",
+        "Johnathan",
+        "Fisher",
+        "SBS",
+        "Phillip",
+        "Wilson"
+      ],
+      "compact_excerpt": "Approval Representatives of the MAGMA Approval Team Person Role Johnathan Fisher SBS Manager \u2013 R&D Phillip Wilson EHS Continuous Improvement Manager Jeremy Singletary Shift Leader, Research & Development"
+    },
+    "classified_at": 1778821090.0283391
+  },
+  "Batch System Screens": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.2,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 6,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.083,
+        "avg_paragraph_length_words": 209
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Batch",
+        "System",
+        "batch",
+        "Screens",
+        "screen",
+        "operation",
+        "scales",
+        "AGV",
+        "each",
+        "Click",
+        "display",
+        "shown"
+      ],
+      "compact_excerpt": "Batch System Screens Click on the Batch System tab at the top of the screen to display the main Batch System screen, shown below. Click on the down arrow button to display the popup window to navigate to the following operation screens, which are shown on the following pages: Scales \u2013 monitors the two batch container scales, and the two minors scales. Status \u2013 provides details about the operation "
+    },
+    "classified_at": 1778821090.0392349
+  },
+  "Comments": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.267,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 22
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Comments",
+        "Read",
+        "section",
+        "thoroughly",
+        "before",
+        "starting",
+        "work",
+        "Personnel",
+        "performing",
+        "tasks",
+        "document",
+        "must"
+      ],
+      "compact_excerpt": "Comments Read a section thoroughly before starting the work. Personnel performing the tasks in this document must have completed the required training."
+    },
+    "classified_at": 1778821090.0515509
+  },
+  "Basic Layout of Each Screen": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.067,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 9,
+        "concept_pattern_hits": 27,
+        "reference_pattern_hits": 8,
+        "imperative_sentence_ratio": 0.025,
+        "avg_paragraph_length_words": 791
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "screen",
+        "operator",
+        "area",
+        "operation",
+        "screens",
+        "used",
+        "buttons",
+        "messages",
+        "working",
+        "Screen",
+        "control",
+        "below"
+      ],
+      "compact_excerpt": "Basic Layout of Each Screen The Zippe system has two SCADA operator stations (based on Windows 10). One station is in the SBS control room, and the other is in the melter control room. The screens available through the operator stations are used to control and monitor operations, and respond to alarms. As shown below on the main menu, each screen is divided into three sections: Overview Area at th"
+    },
+    "classified_at": 1778821090.0903718
+  },
+  "Batch Cullet Weighing Screens": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.133,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 4,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.2,
+        "avg_paragraph_length_words": 140
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Batch",
+        "Cullet",
+        "Weighing",
+        "Screens",
+        "screen",
+        "Integration",
+        "Click",
+        "display",
+        "shown",
+        "button",
+        "following",
+        "Formula"
+      ],
+      "compact_excerpt": "Batch Cullet Weighing Screens Click on the Batch Cullet Weighing tab at the top of the screen to display the main Batch Cullet Weighing screen, shown below. Click on the down arrow button to display the popup window to navigate to the following operation screens, which are shown on the following pages: Status \u2013 provides an overview regarding the current weighing cycle of the scales Formula - press"
+    },
+    "classified_at": 1778821090.1250134
+  },
+  "Maintenance Screens": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.4,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 4,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 118
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Maintenance",
+        "Screens",
+        "screen",
+        "Click",
+        "display",
+        "shown",
+        "Network",
+        "button",
+        "following",
+        "connected",
+        "main",
+        "below"
+      ],
+      "compact_excerpt": "Maintenance Screens Click on the Maintenance tab at the top of the screen to display the main Maintenance screen, shown below. (You can also click on the Plant Network button on the bottom of the screen.) Click on the down arrow button to display the popup window to navigate to the following operation screens, which are shown on the following pages: Network \u2013 shows how the individual network compo"
+    },
+    "classified_at": 1778821090.393731
+  },
+  "General": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.533,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 28
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "General",
+        "safety",
+        "respirator",
+        "PAPR",
+        "Bump",
+        "glasses",
+        "hearing",
+        "protection",
+        "long",
+        "sleeves",
+        "toed",
+        "shoes"
+      ],
+      "compact_excerpt": "General Bump cap, safety glasses, hearing protection, long sleeves, safety-toed shoes, respirator or PAPR, cut-resistant gloves. Have a respirator or PAPR available in case of a silica release."
+    },
+    "classified_at": 1778821090.4294565
+  },
+  "Navigating the SCADA Operating Screens": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.467,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "mixed",
+      "keyword_set": [
+        "Navigating",
+        "SCADA",
+        "Operating",
+        "Screens"
+      ],
+      "compact_excerpt": "Navigating the SCADA Operating Screens 2022-10-01"
+    },
+    "classified_at": 1778821090.4545703
+  },
+  "Purpose/Application": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.667,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 14
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Purpose",
+        "Application",
+        "Describes",
+        "navigate",
+        "SCADA",
+        "operating",
+        "screens",
+        "SBS"
+      ],
+      "compact_excerpt": "Purpose/Application Describes how to navigate and use the SCADA operating screens for the SBS."
+    },
+    "classified_at": 1778821090.4673326
+  },
+  "Equipment Needed": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.333,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "mixed",
+      "keyword_set": [
+        "Equipment",
+        "Needed",
+        "Access",
+        "SCADA",
+        "operating",
+        "system"
+      ],
+      "compact_excerpt": "Equipment Needed Access to the SCADA operating system."
+    },
+    "classified_at": 1778821090.478704
+  },
+  "Revision History": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.733,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Revision",
+        "History",
+        "Approved",
+        "Johnathan",
+        "Fisher",
+        "SBS",
+        "Manager",
+        "Original",
+        "Issue"
+      ],
+      "compact_excerpt": "Revision History 2022-10-01 Approved by Johnathan Fisher, SBS Manager \u2013 R&D Original Issue"
+    },
+    "classified_at": 1778821090.752359
+  },
+  "Safety Controls": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.8,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 50
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Safety",
+        "Controls",
+        "chemicals",
+        "SDS",
+        "measures",
+        "Hazard",
+        "Communication",
+        "Standard",
+        "HCS",
+        "requires",
+        "Data",
+        "Sheets"
+      ],
+      "compact_excerpt": "Safety Controls The Hazard Communication Standard (HCS) requires chemicals to have Safety Data Sheets (SDS), please refer to the SDS for chemicals listed in this SOP for additional hazards, first aid measures, toxicological information, accidental release measures, and handling/storage of the chemical. Review the Emergency Action Plan before performing work."
+    },
+    "classified_at": 1778821090.7650976
+  },
+  "Silo Feeding Screens": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.933,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.25,
+        "avg_paragraph_length_words": 71
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Silo",
+        "Feeding",
+        "Screens",
+        "Click",
+        "screen",
+        "display",
+        "shown",
+        "screens",
+        "silos",
+        "main",
+        "below",
+        "down"
+      ],
+      "compact_excerpt": "Silo Feeding Screens Click on the Silo Feeding tab at the top of the screen to display the main Silo Feeding screen, shown below. Click on the down arrow button to display the popup window to navigate to the other two operation screens\u2014for the majors silos 1-8, and for the minors silos 12-18. These screens are shown on the following page. Main Screen and Popup Window for the Silo Loading Operation"
+    },
+    "classified_at": 1778821090.810406
+  },
+  "Safety Hazards": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.867,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 2
+      },
+      "context_frame": "mixed",
+      "keyword_set": [
+        "Safety",
+        "Hazards"
+      ],
+      "compact_excerpt": "Safety Hazards"
+    },
+    "classified_at": 1778821090.8218207
+  }
+}

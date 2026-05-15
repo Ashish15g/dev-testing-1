@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="_Toc119676804" xml:lang="en-us">
+  <title>Basic Layout of Each Screen</title>
+  <shortdesc>As shown below on the main menu, each screen is divided into three sections: Overview</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>screen</keyword>
+        <keyword>operator</keyword>
+        <keyword>operation</keyword>
+        <keyword>screens</keyword>
+        <keyword>buttons</keyword>
+        <keyword>messages</keyword>
+        <indexterm>screen</indexterm>
+        <indexterm>operator</indexterm>
+        <indexterm>operation</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <conbody>
+    <note type="note">The Zippe system has two SCADA operator stations (based on Windows 10). One station is in the SBS control room, and the other is in the melter control room. The screens available through the operator stations are used to control and monitor operations, and respond to alarms.</note>
+    <p>As shown below on the main menu, each screen is divided into three sections: Overview Area at the top, Working Area in the middle, and Button Bar at the bottom.</p>
+    <p>
+      <fig>
+        <image href="../media/image1.png"/>
+      </fig>
+    </p>
+    <p>
+      <b>Overview Area</b>
+    </p>
+    <p>The top section of the screen provides the operator with an overview of the entire batch plant that for monitoring and detection of problems. The image below explains the purpose of each of these buttons.</p>
+    <note type="note">The latest incoming message appears at the top of the screen. Recent messages can be viewed using the buttons in the upper left corner, which are identified on the following page. The messages and alarms are explained in detail in SBS-OP-003 Alarm Message System.</note>
+    <p>
+      <fig>
+        <image href="../media/image2.png"/>
+      </fig>
+    </p>
+    <p>Four key operations have tabs in the Overview area at the top of the screen:</p>
+    <ul id="ul_04580802">
+      <li>Silo Feeding</li>
+      <li>Batch System</li>
+      <li>Batch Cullet Weighing</li>
+      <li>Maintenance</li>
+    </ul>
+    <p>To the right of each operation tab is a 5-segment group display that shows current messages for that operation. (Only three segments are currently used.) The messages include:</p>
+    <ul id="ul_04580803">
+      <li>A=Alarm violation of the alarm limit (white on red)</li>
+      <li>W=Warning violation of the warning limit (black on yellow)</li>
+      <li>S = Process control message</li>
+      <li>F = fault, error</li>
+    </ul>
+    <p>
+      <fig>
+        <image href="../media/image3.png"/>
+      </fig>
+    </p>
+    <p>
+      <b>Button Bar</b>
+    </p>
+    <p>The bottom of the screen provides two sets of buttons for navigation and process control, and are the same for all four operation areas. Pressing the arrow button on the far left will toggle between the two button sets. Each button is identified with a letter and explained in the table below.</p>
+    <p>
+      <fig>
+        <image href="../media/image4.png"/>
+      </fig>
+    </p>
+    <p>
+      <b>Button Descriptions</b>
+    </p>
+    <table frame="all" colsep="1" rowsep="1">
+      <tgroup cols="3">
+        <colspec colname="col1" colnum="1" colwidth="1*"/>
+        <colspec colname="col2" colnum="2" colwidth="1*"/>
+        <colspec colname="col3" colnum="3" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <b>Letter</b>
+            </entry>
+            <entry>
+              <b>Button Image</b>
+            </entry>
+            <entry>
+              <b>Function / Description</b>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <b>A</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image5.jpeg"/>
+              </fig>
+            </entry>
+            <entry>Push these buttons to toggle to the other set of buttons</entry>
+          </row>
+          <row>
+            <entry>
+              <b>B</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image6.png"/>
+              </fig>
+            </entry>
+            <entry>Password button used to log users on and off for process control</entry>
+          </row>
+          <row>
+            <entry>
+              <b>C</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image7.jpeg"/>
+              </fig>
+            </entry>
+            <entry>Opens the message system.  The acknowledgeable incoming alarm list is displayed in the working area.</entry>
+          </row>
+          <row>
+            <entry>
+              <b>D</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image8.png"/>
+              </fig>
+            </entry>
+            <entry>Opens the "Reports" system dialog that provides the operator with an overview of all reports.</entry>
+          </row>
+          <row>
+            <entry>
+              <b>E</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image9.jpeg"/>
+              </fig>
+            </entry>
+            <entry>Opens the "Screen selection by name" system    dialog. This function is used to select a graphic based   on a name, and to display it in the working area.</entry>
+          </row>
+          <row>
+            <entry>
+              <b>F</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image10.jpeg"/>
+              </fig>
+              <fig>
+                <image href="../media/image11.jpeg"/>
+              </fig>
+              <fig>
+                <image href="../media/image14.jpeg"/>
+              </fig>
+              <fig>
+                <image href="../media/image15.jpeg"/>
+              </fig>
+            </entry>
+            <entry>These buttons allow navigation between the screens for an operation area.</entry>
+          </row>
+          <row>
+            <entry>
+              <b>G</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image18.jpeg"/>
+              </fig>
+              <fig>
+                <image href="../media/image19.jpeg"/>
+              </fig>
+            </entry>
+            <entry>Displays the process screen previously displayed in the working area.</entry>
+          </row>
+          <row>
+            <entry>
+              <b>H</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image20.png"/>
+              </fig>
+            </entry>
+            <entry>Store / Recall screens allow the operator to store and recall the process screen currently displayed in the working area.</entry>
+          </row>
+          <row>
+            <entry>
+              <b>I</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image21.png"/>
+              </fig>
+              <fig>
+                <image href="../media/image22.png"/>
+              </fig>
+              <fig>
+                <image href="../media/image23.png"/>
+              </fig>
+            </entry>
+            <entry>Recall / save / delete composition buttons allow the operator to manage different screen compositions. The combinations of screens and windows can be saved and recalled.</entry>
+          </row>
+          <row>
+            <entry>
+              <b>J</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image24.jpeg"/>
+              </fig>
+            </entry>
+            <entry>Plant network - This screen gives the operator a quick overview of the    network configuration, and the current communication and health status of the plant equipment.</entry>
+          </row>
+          <row>
+            <entry>
+              <b>K</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image25.jpeg"/>
+              </fig>
+            </entry>
+            <entry>Screen information function opens a dialog in the working area where information is shown for the currently displayed process picture.</entry>
+          </row>
+          <row>
+            <entry>
+              <b>L</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image26.jpeg"/>
+              </fig>
+            </entry>
+            <entry>Acknowledge horn - The operator can acknowledge the failure horn. The alarm that triggered the horn is NOT acknowledged with this function.</entry>
+          </row>
+          <row>
+            <entry>
+              <b>M</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image27.jpeg"/>
+              </fig>
+            </entry>
+            <entry>Acknowledge fault - The operator can acknowledge all the visible messages displayed in a process screen in the working areas</entry>
+          </row>
+          <row>
+            <entry>
+              <b>N</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image28.jpeg"/>
+              </fig>
+            </entry>
+            <entry>Not Used:  Language switch</entry>
+          </row>
+          <row>
+            <entry>
+              <b>O</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image29.jpeg"/>
+              </fig>
+              <fig>
+                <image href="../media/image30.jpeg"/>
+              </fig>
+            </entry>
+            <entry>Lock / Unlock messages – This function is used to prevent the triggering of messages from all  affected measurement points through group  displays in the screen</entry>
+          </row>
+          <row>
+            <entry>
+              <b>P</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image31.jpeg"/>
+              </fig>
+            </entry>
+            <entry>User authorization function opens the User Administrator, which is used to specify permissions for individual users.</entry>
+          </row>
+          <row>
+            <entry>
+              <b>Q</b>
+            </entry>
+            <entry>
+              <fig>
+                <image href="../media/image32.jpeg"/>
+              </fig>
+            </entry>
+            <entry>Exit run time - This function allows the operator to exit the run time environment.  ???</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <b>Working Area</b>
+    </p>
+    <p>When an Operation tab is pressed, the tab is highlighted and the working area of the screen displays the overview/main screen for that operation (Silo Feeding, Batch System, Batch Cullet Weighing, Maintenance).</p>
+    <p>Click the “down” arrow to the right of that operation tab to display a popup window used to navigate to the other screens for that operation area. The example below shows the main screen and popup window for the Silo Loading operation. (The main screens show smaller versions of several of their operation screens.)</p>
+    <p>
+      <fig>
+        <image href="../media/image33.png"/>
+      </fig>
+    </p>
+    <note type="note">The screens for each operation area are shown below.</note>
+    <p>
+      <b>Faceplates</b>
+    </p>
+    <p>If the cursor hovers over a piece of equipment on a screen and a “lightning bolt” appears, click on the item to open a faceplate (popup window] that provides information about that specific device. The faceplates vary depending on the type of equipment. For example, the faceplates for a screw drive or dosing feeder are shown below, and include the ability to change operating modes, change parameter values, and view alarms for that particular device.</p>
+    <p>
+      <fig>
+        <image href="../media/image34.png"/>
+      </fig>
+    </p>
+  </conbody>
+</concept>

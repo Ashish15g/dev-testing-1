@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="_Toc119676805" xml:lang="en-us">
+  <title>Silo Feeding Screens</title>
+  <shortdesc>Click on the Silo Feeding tab at the top of the screen to display the</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Silo</keyword>
+        <keyword>Feeding</keyword>
+        <keyword>Screens</keyword>
+        <keyword>Click</keyword>
+        <keyword>screen</keyword>
+        <keyword>display</keyword>
+        <indexterm>Silo</indexterm>
+        <indexterm>Feeding</indexterm>
+        <indexterm>Screens</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <taskbody>  <context>
+    <p>
+      <fig>
+        <image href="../media/image35.png"/>
+      </fig>
+      <b>Main Screen and Popup Window for the Silo Loading Operation</b>
+    </p><p>
+      <fig>
+        <image href="../media/image36.png"/>
+      </fig>
+    </p><p>
+      <fig>
+        <image href="../media/image37.png"/>
+      </fig>
+    </p>
+  </context>
+  <steps id="steps_04581003">
+    <step>
+      <cmd>Click on the Silo Feeding tab at the top of the screen to display the main Silo Feeding screen, shown below.</cmd>
+    </step>
+    <step>
+      <cmd>Click on the down arrow button to display the popup window to navigate to the other two operation screens—for the majors silos 1-8, and for the minors silos 12-18. These screens are shown on the following page.</cmd>
+    </step>
+  </steps></taskbody>
+</task>

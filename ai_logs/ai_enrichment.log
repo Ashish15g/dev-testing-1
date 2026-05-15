@@ -1,0 +1,992 @@
+2026-05-15 04:58:09,167 [INFO] pipeline.enrich_runner: =================================================================
+2026-05-15 04:58:09,167 [INFO] pipeline.enrich_runner: [EnrichPipeline] JOB STARTED  job_id=3a58c1d4-6008-422b-9308-c16124728d23
+2026-05-15 04:58:09,168 [INFO] pipeline.enrich_runner: [EnrichPipeline] output_dir  = /app/output/3a58c1d4-6008-422b-9308-c16124728d23
+2026-05-15 04:58:09,168 [INFO] pipeline.enrich_runner: [EnrichPipeline] user_id     = 3a58c1d4-6008-422b-9308-c16124728d23
+2026-05-15 04:58:09,168 [INFO] pipeline.enrich_runner: [EnrichPipeline] working_dir = /app/output/3a58c1d4-6008-422b-9308-c16124728d23
+2026-05-15 04:58:09,169 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname    = (not provided)
+2026-05-15 04:58:09,169 [INFO] pipeline.enrich_runner: =================================================================
+2026-05-15 04:58:09,186 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup created at: /app/output/.tmp_backup_3a58c1d4-6008-422b-9308-c16124728d23
+2026-05-15 04:58:09,199 [INFO] pipeline.enrich_runner: [EnrichPipeline] Discovered 15 .dita files, 14 .ditamap files
+2026-05-15 04:58:09,203 [INFO] pipeline.enrich_runner: [EnrichPipeline] Parsed 15 DITA files
+2026-05-15 04:58:09,203 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ BEFORE ENRICHMENT ══════════════════════════════
+2026-05-15 04:58:09,203 [INFO] pipeline.enrich_runner: [EnrichPipeline] Total DITA files: 15
+2026-05-15 04:58:09,203 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] approval/approval.dita                             type=reference  shortdesc=NO  prolog=NO 
+2026-05-15 04:58:09,204 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] basic_layout_of_each_screen/basic_layout_of_each_screen.dita type=concept    shortdesc=NO  prolog=NO 
+2026-05-15 04:58:09,204 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita type=concept    shortdesc=NO  prolog=NO 
+2026-05-15 04:58:09,204 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] batch_system_screens/batch_system_screens.dita     type=concept    shortdesc=NO  prolog=NO 
+2026-05-15 04:58:09,204 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] comments/comments.dita                             type=concept    shortdesc=NO  prolog=NO 
+2026-05-15 04:58:09,204 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] equipment_needed/equipment_needed.dita             type=concept    shortdesc=NO  prolog=NO 
+2026-05-15 04:58:09,204 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] maintenance_screens/maintenance_screens.dita       type=concept    shortdesc=NO  prolog=NO 
+2026-05-15 04:58:09,205 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] navigating_the_scada_operating_screens.dita        type=concept    shortdesc=NO  prolog=NO 
+2026-05-15 04:58:09,205 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] ppe_required/general.dita                          type=concept    shortdesc=NO  prolog=NO 
+2026-05-15 04:58:09,205 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] ppe_required/ppe_required.dita                     type=concept    shortdesc=NO  prolog=NO 
+2026-05-15 04:58:09,205 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] purpose_application/purpose_application.dita       type=concept    shortdesc=NO  prolog=NO 
+2026-05-15 04:58:09,205 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] revision_history/revision_history.dita             type=reference  shortdesc=NO  prolog=NO 
+2026-05-15 04:58:09,205 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] safety_controls/safety_controls.dita               type=concept    shortdesc=NO  prolog=NO 
+2026-05-15 04:58:09,206 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] safety_hazards/safety_hazards.dita                 type=reference  shortdesc=NO  prolog=NO 
+2026-05-15 04:58:09,206 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] silo_feeding_screens/silo_feeding_screens.dita     type=topic      shortdesc=NO  prolog=NO 
+2026-05-15 04:58:09,206 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Structure & Schema Validation (DITA-only) ──
+2026-05-15 04:58:09,206 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-05-15 04:58:09,214 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-05-15 04:58:09,218 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-05-15 04:58:09,222 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-05-15 04:58:09,224 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-05-15 04:58:09,225 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'navigating_the_scada_operating_screens.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,227 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_body]: 'ppe_required/ppe_required.dita' — <conbody> exists but has no child elements or text content
+2026-05-15 04:58:09,227 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'ppe_required/ppe_required.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,228 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'ppe_required/general.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,229 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'silo_feeding_screens/silo_feeding_screens.dita' — <image> #1 (href='../media/image35.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,230 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'silo_feeding_screens/silo_feeding_screens.dita' — <image> #2 (href='../media/image36.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,230 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'silo_feeding_screens/silo_feeding_screens.dita' — <image> #3 (href='../media/image37.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,230 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'silo_feeding_screens/silo_feeding_screens.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,232 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'equipment_needed/equipment_needed.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,232 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'safety_controls/safety_controls.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,234 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'maintenance_screens/maintenance_screens.dita' — <image> #1 (href='../media/image56.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,234 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'maintenance_screens/maintenance_screens.dita' — <image> #2 (href='../media/image57.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,234 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'maintenance_screens/maintenance_screens.dita' — <image> #3 (href='../media/image58.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,235 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'maintenance_screens/maintenance_screens.dita' — <image> #4 (href='../media/image59.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,235 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'maintenance_screens/maintenance_screens.dita' — <image> #5 (href='../media/image60.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,236 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'maintenance_screens/maintenance_screens.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,240 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,241 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #1 (href='../media/image1.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,241 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #2 (href='../media/image2.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,242 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #3 (href='../media/image3.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,242 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #4 (href='../media/image4.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,242 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #5 (href='../media/image5.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,243 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #6 (href='../media/image6.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,243 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #7 (href='../media/image7.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,243 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #8 (href='../media/image8.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,243 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #9 (href='../media/image9.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,244 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #10 (href='../media/image10.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,244 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #11 (href='../media/image11.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,244 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #12 (href='../media/image14.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,244 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #13 (href='../media/image15.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,244 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #14 (href='../media/image18.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,245 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #15 (href='../media/image19.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,245 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #16 (href='../media/image20.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,245 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #17 (href='../media/image21.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,245 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #18 (href='../media/image22.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,246 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #19 (href='../media/image23.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,246 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #20 (href='../media/image24.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,246 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #21 (href='../media/image25.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,247 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #22 (href='../media/image26.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,247 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #23 (href='../media/image27.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,247 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #24 (href='../media/image28.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,248 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #25 (href='../media/image29.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,248 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #26 (href='../media/image30.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,248 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #27 (href='../media/image31.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,248 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #28 (href='../media/image32.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:09,248 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #29 (href='../media/image33.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,248 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #30 (href='../media/image34.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,249 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,252 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #1 (href='../media/image38.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,252 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #2 (href='../media/image39.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,252 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #3 (href='../media/image40.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,253 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #4 (href='../media/image41.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,253 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #5 (href='../media/image42.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,253 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #6 (href='../media/image43.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,254 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #7 (href='../media/image44.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,254 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #8 (href='../media/image45.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,254 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #9 (href='../media/image46.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,255 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #10 (href='../media/image47.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,255 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #11 (href='../media/image48.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,255 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #12 (href='../media/image49.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,256 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'batch_system_screens/batch_system_screens.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,257 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'revision_history/revision_history.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-05-15 04:58:09,257 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'revision_history/revision_history.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,257 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'revision_history/revision_history.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,258 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'comments/comments.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,259 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'purpose_application/purpose_application.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,260 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'approval/approval.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-05-15 04:58:09,260 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'approval/approval.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,261 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'approval/approval.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,262 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'safety_hazards/safety_hazards.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-05-15 04:58:09,262 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'safety_hazards/safety_hazards.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,262 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'safety_hazards/safety_hazards.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,264 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita' — <image> #1 (href='../media/image50.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,264 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita' — <image> #2 (href='../media/image51.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,265 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita' — <image> #3 (href='../media/image52.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,265 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita' — <image> #4 (href='../media/image53.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,265 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita' — <image> #5 (href='../media/image54.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,265 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita' — <image> #6 (href='../media/image55.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,266 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,267 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=79 | dita_files=15, broken_xml=0, empty=1, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-05-15 04:58:09,268 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation done — CRITICAL=0, WARNING=79 | broken_xml=0, empty=1, broken_refs=0, orphans=0
+2026-05-15 04:58:09,268 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Safe Fixer: Zone 1 auto-fixes ──
+2026-05-15 04:58:09,271 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: ppe_required/ppe_required.dita — expanded self-closing <conbody/> to explicit open/close tags
+2026-05-15 04:58:09,272 [INFO] utils.dita_safe_fixer: [SafeFixer] Complete — 1 fix(es) applied, 0 write failure(s)
+2026-05-15 04:58:09,272 [INFO] pipeline.enrich_runner: [EnrichPipeline] Safe fixes applied=1, write_failures=0
+2026-05-15 04:58:09,273 [INFO] pipeline.enrich_runner: [EnrichPipeline] Marked 1 empty topic(s) to skip enrichment
+2026-05-15 04:58:09,287 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Extracting document context from DITA files ──
+2026-05-15 04:58:09,293 [INFO] utils.document_context_extractor: [DocContext] extract_context_from_dita — 15 files found, stem='batch_cullet_weighing_screens_map'
+2026-05-15 04:58:09,293 [INFO] utils.document_context_extractor: [DocContext] Extracting document-level context from: /app/output/3a58c1d4-6008-422b-9308-c16124728d23/batch_cullet_weighing_screens_map.ditamap
+2026-05-15 04:58:09,293 [INFO] utils.document_context_extractor: [DocContext] Aggregated content from 15 files
+2026-05-15 04:58:09,355 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:09,358 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBXxz5pCmQ6DkSSrTz'}
+2026-05-15 04:58:09,359 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Monitoring Printing'
+2026-05-15 04:58:09,362 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task monitoring_printing.dita
+2026-05-15 04:58:09,362 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,363 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc monitoring_printing.dita
+2026-05-15 04:58:09,366 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,366 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog monitoring_printing.dita
+2026-05-15 04:58:09,375 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Monitoring Printing' → type=task, confidence=low
+2026-05-15 04:58:09,379 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:09,380 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:09,381 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:09,382 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:09,384 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBXzE5DikJwJqRVnhj'}
+2026-05-15 04:58:09,385 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'My application or Mac OS X doesn’t seem to be working correctly. Do I need to reinstall Mac OS X?'
+2026-05-15 04:58:09,387 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,387 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc my_application_or_mac_os_x_doesn_t_seem_to_be_working_correctly_do_i_need_to.dita
+2026-05-15 04:58:09,390 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,390 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog my_application_or_mac_os_x_doesn_t_seem_to_be_working_correctly_do_i_need_to.dita
+2026-05-15 04:58:09,399 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'My application or Mac OS X doesn’t seem to be working correctly. Do I need to reinstall Mac OS X?' → type=concept, confidence=low
+2026-05-15 04:58:09,400 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBXyjHkVbAYRJ6NcQA'}
+2026-05-15 04:58:09,400 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Network Connections'
+2026-05-15 04:58:09,402 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task network_connections.dita
+2026-05-15 04:58:09,402 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,403 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc network_connections.dita
+2026-05-15 04:58:09,405 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,405 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog network_connections.dita
+2026-05-15 04:58:09,411 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Network Connections' → type=task, confidence=low
+2026-05-15 04:58:09,412 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBXzikgat6vtrroFQW'}
+2026-05-15 04:58:09,412 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'My Internet connection doesn’t seem to be working. How do I set it up?'
+2026-05-15 04:58:09,414 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task my_internet_connection_doesn_t_seem_to_be_working_how_do_i_set_it_up.dita
+2026-05-15 04:58:09,414 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,415 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc my_internet_connection_doesn_t_seem_to_be_working_how_do_i_set_it_up.dita
+2026-05-15 04:58:09,417 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,417 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog my_internet_connection_doesn_t_seem_to_be_working_how_do_i_set_it_up.dita
+2026-05-15 04:58:09,425 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'My Internet connection doesn’t seem to be working. How do I set it up?' → type=task, confidence=low
+2026-05-15 04:58:09,426 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBXxEzY3J1aT3doXCp'}
+2026-05-15 04:58:09,426 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Safety Controls'
+2026-05-15 04:58:09,428 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,429 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc safety_controls.dita
+2026-05-15 04:58:09,430 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,431 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog safety_controls.dita
+2026-05-15 04:58:09,433 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Safety Controls' → type=concept, confidence=low
+2026-05-15 04:58:09,440 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layers 1+2+3 complete — 14 topics processed
+2026-05-15 04:58:09,441 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reclassification summary — 10 of 14 topics had type changed by AI
+2026-05-15 04:58:09,441 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] approval/approval.dita                                       reference → concept (confidence=low)
+2026-05-15 04:58:09,441 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] consumables/consumables.dita                                 task → concept (confidence=low)
+2026-05-15 04:58:09,441 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] equipment_needed/equipment_needed.dita                       concept → topic (confidence=low)
+2026-05-15 04:58:09,442 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] glass_cube_sampling/glass_cube_sampling.dita                 task → concept (confidence=low)
+2026-05-15 04:58:09,442 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] glass_sampling_and_polishing.dita                            concept → topic (confidence=low)
+2026-05-15 04:58:09,442 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] ppe_required/general.dita                                    concept → topic (confidence=low)
+2026-05-15 04:58:09,442 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] ppe_required/required_for_specific_sections.dita             concept → topic (confidence=low)
+2026-05-15 04:58:09,442 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] purpose_application/purpose_application.dita                 concept → topic (confidence=low)
+2026-05-15 04:58:09,443 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] revision_history/revision_history.dita                       reference → topic (confidence=low)
+2026-05-15 04:58:09,443 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] safety_hazards/safety_hazards.dita                           reference → topic (confidence=low)
+2026-05-15 04:58:09,443 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ AFTER ENRICHMENT ═══════════════════════════════
+2026-05-15 04:58:09,443 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  approval/approval.dita                             type=concept    shortdesc='Representatives of the MAGMA Approval Team'
+2026-05-15 04:58:09,443 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Approval', 'Melting', 'Representatives', 'MAGMA', 'Team', 'Person'] | indexterms=['Approval', 'Melting', 'Representatives']
+2026-05-15 04:58:09,444 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  comments/comments.dita                             type=concept    shortdesc='Take at least two samples. Choose the best one for polishing and color…'
+2026-05-15 04:58:09,444 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['samples', 'Comments', 'polished', 'Take', 'least', 'Choose'] | indexterms=['samples', 'Comments', 'polished']
+2026-05-15 04:58:09,444 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  consumables/consumables.dita                       type=concept    shortdesc='Replace the DGD and PSA Microcloth pads according to the wear.'
+2026-05-15 04:58:09,444 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Brand', 'Material', 'Item', 'Site', 'Buehler', 'Color'] | indexterms=['Brand', 'Material', 'Item']
+2026-05-15 04:58:09,444 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  equipment_needed/equipment_needed.dita             type=topic      shortdesc='Ceramic wool.'
+2026-05-15 04:58:09,445 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Equipment', 'Needed', 'Glass', 'Polisher', 'Ceramic', 'Insulation'] | indexterms=['Equipment', 'Needed', 'Glass']
+2026-05-15 04:58:09,445 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  glass_cube_polishing/glass_cube_polishing.dita     type=task       shortdesc='Abrasives and polishing removes layers of surface deformation and expo…'
+2026-05-15 04:58:09,445 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['sample', 'polishing', 'glass', 'Turn', 'should', 'Required'] | indexterms=['sample', 'polishing', 'glass']
+2026-05-15 04:58:09,445 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  glass_cube_sampling/glass_cube_sampling.dita       type=concept    shortdesc='Glass cube samples are taken from the gob or stream of glass in the ho…'
+2026-05-15 04:58:09,446 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['glass', 'sample', 'Required', 'Furnace', 'gloves', 'Glass'] | indexterms=['glass', 'sample', 'Required']
+2026-05-15 04:58:09,446 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  glass_sampling_and_polishing.dita                  type=topic      shortdesc='2023-10-26'
+2026-05-15 04:58:09,446 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Glass', 'Sampling', 'Polishing'] | indexterms=['Glass', 'Sampling', 'Polishing']
+2026-05-15 04:58:09,446 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  ppe_required/general.dita                          type=topic      shortdesc='Bump cap, safety glasses, hearing protection, long sleeves, safety toe…'
+2026-05-15 04:58:09,447 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['General', 'safety', 'Bump', 'glasses', 'hearing', 'protection'] | indexterms=['General', 'safety', 'Bump']
+2026-05-15 04:58:09,447 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  ppe_required/ppe_required.dita                     SKIPPED (empty topic)
+2026-05-15 04:58:09,447 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  ppe_required/required_for_specific_sections.dita   type=topic      shortdesc='Fire-resistant jacket, fire-resistant pants, fire-resistant balaclava,…'
+2026-05-15 04:58:09,447 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['resistant', 'Required', 'Specific', 'Sections', 'gloves', 'Fire'] | indexterms=['resistant', 'Required', 'Specific']
+2026-05-15 04:58:09,447 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  purpose_application/purpose_application.dita       type=topic      shortdesc='Defines the process to collect and polish glass cube samples from gob …'
+2026-05-15 04:58:09,447 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Purpose', 'Application', 'Defines', 'process', 'collect', 'polish'] | indexterms=['Purpose', 'Application', 'Defines']
+2026-05-15 04:58:09,448 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  revision_history/revision_history.dita             type=topic      shortdesc='2023-10-23 Approved by Michael Hu and Daniela Klatt Original Issue'
+2026-05-15 04:58:09,448 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Revision', 'History', 'Approved', 'Michael', 'Daniela', 'Klatt'] | indexterms=['Revision', 'History', 'Approved']
+2026-05-15 04:58:09,448 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  safety_controls/safety_controls.dita               type=concept    shortdesc='Exposure to heat can cause illness and death .'
+2026-05-15 04:58:09,448 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['illness', 'molten', 'glass', 'Safety', 'Controls', 'exposure'] | indexterms=['illness', 'molten', 'glass']
+2026-05-15 04:58:09,448 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  safety_hazards/safety_hazards.dita                 type=topic      shortdesc='Overview of Safety Hazards.'
+2026-05-15 04:58:09,448 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Safety', 'Hazards'] | indexterms=['Safety', 'Hazards']
+2026-05-15 04:58:09,449 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 4: Quality Review ──
+2026-05-15 04:58:09,451 [INFO] layers.layer4_quality_autofix: L4 › approval/approval.dita at /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/approval/approval.dita
+2026-05-15 04:58:09,452 [INFO] layers.layer4_quality_autofix: L4 › comments/comments.dita at /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/comments/comments.dita
+2026-05-15 04:58:09,452 [INFO] layers.layer4_quality_autofix: L4 › consumables/consumables.dita at /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/consumables/consumables.dita
+2026-05-15 04:58:09,452 [INFO] layers.layer4_quality_autofix: L4 › equipment_needed/equipment_needed.dita at /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/equipment_needed/equipment_needed.dita
+2026-05-15 04:58:09,452 [INFO] layers.layer4_quality_autofix: L4 › glass_cube_polishing/glass_cube_polishing.dita at /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/glass_cube_polishing/glass_cube_polishing.dita
+2026-05-15 04:58:09,453 [INFO] layers.layer4_quality_autofix: L4 › glass_cube_sampling/glass_cube_sampling.dita at /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/glass_cube_sampling/glass_cube_sampling.dita
+2026-05-15 04:58:09,453 [INFO] layers.layer4_quality_autofix: L4 › glass_sampling_and_polishing.dita at /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/glass_sampling_and_polishing.dita
+2026-05-15 04:58:09,453 [INFO] layers.layer4_quality_autofix: L4 › ppe_required/general.dita at /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/ppe_required/general.dita
+2026-05-15 04:58:09,453 [INFO] layers.layer4_quality_autofix: L4 › ppe_required/ppe_required.dita at /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/ppe_required/ppe_required.dita
+2026-05-15 04:58:09,454 [INFO] layers.layer4_quality_autofix: L4 › ppe_required/required_for_specific_sections.dita at /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/ppe_required/required_for_specific_sections.dita
+2026-05-15 04:58:09,454 [INFO] layers.layer4_quality_autofix: L4 › purpose_application/purpose_application.dita at /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/purpose_application/purpose_application.dita
+2026-05-15 04:58:09,454 [INFO] layers.layer4_quality_autofix: L4 › revision_history/revision_history.dita at /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/revision_history/revision_history.dita
+2026-05-15 04:58:09,455 [INFO] layers.layer4_quality_autofix: L4 › safety_controls/safety_controls.dita at /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/safety_controls/safety_controls.dita
+2026-05-15 04:58:09,455 [INFO] layers.layer4_quality_autofix: L4 › safety_hazards/safety_hazards.dita at /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/safety_hazards/safety_hazards.dita
+2026-05-15 04:58:09,455 [INFO] layers.layer4_quality_autofix: L4 › review 14/14 topics (0 skipped)
+2026-05-15 04:58:09,497 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:09,499 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBYM3upSjeY38uD4pv'}
+2026-05-15 04:58:09,499 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Making Sure Your MacBook Pro Recognizes the New Memory'
+2026-05-15 04:58:09,501 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic making_sure_your_macbook_pro_recognizes_the_new_memory.dita
+2026-05-15 04:58:09,502 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,503 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc making_sure_your_macbook_pro_recognizes_the_new_memory.dita
+2026-05-15 04:58:09,505 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,506 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog making_sure_your_macbook_pro_recognizes_the_new_memory.dita
+2026-05-15 04:58:09,515 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Making Sure Your MacBook Pro Recognizes the New Memory' → type=topic, confidence=low
+2026-05-15 04:58:09,644 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:09,645 [WARNING] utils.document_context_extractor: [DocContext] AI extraction failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBZBeyN12wNYTMpEi8'}
+2026-05-15 04:58:09,645 [INFO] utils.document_context_extractor: [DocContext] AI confidence low (0.00), using heuristic for task_type only
+2026-05-15 04:58:09,647 [INFO] utils.document_context_extractor: [DocContext] Heuristic task_type: 'configuration guide'
+2026-05-15 04:58:09,647 [INFO] utils.document_context_extractor: [DocContext] Final context: {'prodname': 'batch_cullet_weighing_screens_map', 'prodname_confirmed': False, 'equipment_name': '', 'task_type': 'configuration guide', 'document_keywords': ['configuration guide'], 'extraction_method': 'heuristic', 'confidence': 0.0}
+2026-05-15 04:58:09,648 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname 'batch_cullet_weighing_screens_map' is AI-inferred — clearing so DITA gets empty <prodname>
+2026-05-15 04:58:09,648 [INFO] pipeline.enrich_runner: [EnrichPipeline] Context — prodname='', equipment='', task_type='configuration guide', method=heuristic, confidence=0.00
+2026-05-15 04:58:09,649 [INFO] utils.core_log_parser: [CoreLogParser] Using most recent report: SBS-OP-002_report.txt
+2026-05-15 04:58:09,650 [INFO] utils.core_log_parser: [CoreLogParser] Parsed core report 'SBS-OP-002_report.txt' — 29 topics, 0 errors
+2026-05-15 04:58:09,651 [INFO] utils.core_log_parser: [CoreLogParser] Using most recent report: SBS-OP-002_report.txt
+2026-05-15 04:58:09,651 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Backend Report (core _report.txt) ──────────────
+2026-05-15 04:58:09,652 [INFO] pipeline.enrich_runner: [BackendReport] [Core Engine] total=29, passed=29, failed=0, root_map=approval_map.ditamap, images=67
+2026-05-15 04:58:09,652 [INFO] pipeline.enrich_runner: [BackendReport] [Core Files]
+2026-05-15 04:58:09,652 [INFO] pipeline.enrich_runner: [BackendReport]   approval/approval.dita: type=reference, status=PASS
+2026-05-15 04:58:09,652 [INFO] pipeline.enrich_runner: [BackendReport]   basic_layout_of_each_screen/basic_layout_of_each_screen.dita: type=concept, status=PASS
+2026-05-15 04:58:09,652 [INFO] pipeline.enrich_runner: [BackendReport]   batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita: type=concept, status=PASS
+2026-05-15 04:58:09,652 [INFO] pipeline.enrich_runner: [BackendReport]   batch_system_screens/batch_system_screens.dita: type=concept, status=PASS
+2026-05-15 04:58:09,652 [INFO] pipeline.enrich_runner: [BackendReport]   comments/comments.dita: type=concept, status=PASS
+2026-05-15 04:58:09,652 [INFO] pipeline.enrich_runner: [BackendReport]   equipment_needed/equipment_needed.dita: type=concept, status=PASS
+2026-05-15 04:58:09,652 [INFO] pipeline.enrich_runner: [BackendReport]   maintenance_screens/maintenance_screens.dita: type=concept, status=PASS
+2026-05-15 04:58:09,652 [INFO] pipeline.enrich_runner: [BackendReport]   navigating_the_scada_operating_screens.dita: type=concept, status=PASS
+2026-05-15 04:58:09,652 [INFO] pipeline.enrich_runner: [BackendReport]   ppe_required/general.dita: type=concept, status=PASS
+2026-05-15 04:58:09,653 [INFO] pipeline.enrich_runner: [BackendReport]   ppe_required/ppe_required.dita: type=concept, status=PASS
+2026-05-15 04:58:09,653 [INFO] pipeline.enrich_runner: [BackendReport]   purpose_application/purpose_application.dita: type=concept, status=PASS
+2026-05-15 04:58:09,653 [INFO] pipeline.enrich_runner: [BackendReport]   revision_history/revision_history.dita: type=reference, status=PASS
+2026-05-15 04:58:09,653 [INFO] pipeline.enrich_runner: [BackendReport]   safety_controls/safety_controls.dita: type=concept, status=PASS
+2026-05-15 04:58:09,653 [INFO] pipeline.enrich_runner: [BackendReport]   safety_hazards/safety_hazards.dita: type=reference, status=PASS
+2026-05-15 04:58:09,653 [INFO] pipeline.enrich_runner: [BackendReport]   silo_feeding_screens/silo_feeding_screens.dita: type=topic, status=PASS
+2026-05-15 04:58:09,653 [INFO] pipeline.enrich_runner: [BackendReport] [Core DTD] all files passed
+2026-05-15 04:58:09,653 [INFO] pipeline.enrich_runner: [BackendReport] [Core Errors] none
+2026-05-15 04:58:09,653 [INFO] pipeline.enrich_runner: [BackendReport] [Core Headings] Approval(1) | Basic Layout Of Each Screen(1) | Batch Cullet Weighing Screens(1) | Batch System Screens(1) | Comments(1) | Equipment Needed(1) | Maintenance Screens(1) | Ppe Required(2) | Purpose Application(1) | Revision History(1) | Safety Controls(1) | Safety Hazards(1) | Silo Feeding Screens(1)
+2026-05-15 04:58:09,653 [INFO] pipeline.enrich_runner: [BackendReport] DTD validation: all files passed
+2026-05-15 04:58:09,653 [INFO] pipeline.enrich_runner: [EnrichPipeline] ────────────────────────────────────────────────────
+2026-05-15 04:58:09,654 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layers 1+2+3: Classify + Shortdesc + Keywords ──
+2026-05-15 04:58:09,656 [INFO] layers.layer123_enrichment: L123 › 'Approval' approval/approval.dita
+2026-05-15 04:58:09,661 [INFO] layers.layer123_enrichment: L123 › 'Basic Layout of Each Screen' basic_layout_of_each_screen/basic_layout_of_each_screen.dita
+2026-05-15 04:58:09,664 [INFO] layers.layer123_enrichment: L123 › 'Batch Cullet Weighing Screens' batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita
+2026-05-15 04:58:09,667 [INFO] layers.layer123_enrichment: L123 › 'Batch System Screens' batch_system_screens/batch_system_screens.dita
+2026-05-15 04:58:09,669 [INFO] layers.layer123_enrichment: L123 › 'Comments' comments/comments.dita
+2026-05-15 04:58:09,672 [INFO] layers.layer123_enrichment: L123 › 'Equipment Needed' equipment_needed/equipment_needed.dita
+2026-05-15 04:58:09,673 [INFO] layers.layer123_enrichment: L123 › 'Maintenance Screens' maintenance_screens/maintenance_screens.dita
+2026-05-15 04:58:09,675 [INFO] layers.layer123_enrichment: L123 › 'Navigating the SCADA Operating Screens' navigating_the_scada_operating_screens.dita
+2026-05-15 04:58:09,676 [INFO] layers.layer123_enrichment: L123 › 'General' ppe_required/general.dita
+2026-05-15 04:58:09,676 [INFO] pipeline.enrich_runner: [EnrichPipeline] SKIPPED 'ppe_required/ppe_required.dita' — empty topic
+2026-05-15 04:58:09,677 [INFO] layers.layer123_enrichment: L123 › 'Purpose/Application' purpose_application/purpose_application.dita
+2026-05-15 04:58:09,678 [INFO] layers.layer123_enrichment: L123 › 'Revision History' revision_history/revision_history.dita
+2026-05-15 04:58:09,679 [INFO] layers.layer123_enrichment: L123 › 'Safety Controls' safety_controls/safety_controls.dita
+2026-05-15 04:58:09,680 [INFO] layers.layer123_enrichment: L123 › 'Safety Hazards' safety_hazards/safety_hazards.dita
+2026-05-15 04:58:09,681 [INFO] layers.layer123_enrichment: L123 › 'Silo Feeding Screens' silo_feeding_screens/silo_feeding_screens.dita
+2026-05-15 04:58:09,782 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:09,784 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBZktFps3oCvQWVesz'}
+2026-05-15 04:58:09,784 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Nothing happens when you press the power (®) button.'
+2026-05-15 04:58:09,786 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task nothing_happens_when_you_press_the_power_button.dita
+2026-05-15 04:58:09,787 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,787 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc nothing_happens_when_you_press_the_power_button.dita
+2026-05-15 04:58:09,789 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,790 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog nothing_happens_when_you_press_the_power_button.dita
+2026-05-15 04:58:09,795 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Nothing happens when you press the power (®) button.' → type=task, confidence=low
+2026-05-15 04:58:09,800 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:09,802 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBZocdJvNsdmxt4wAb'}
+2026-05-15 04:58:09,802 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Playing a CD and Connecting Headphones'
+2026-05-15 04:58:09,804 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task playing_a_cd_and_connecting_headphones.dita
+2026-05-15 04:58:09,804 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,805 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc playing_a_cd_and_connecting_headphones.dita
+2026-05-15 04:58:09,807 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,808 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog playing_a_cd_and_connecting_headphones.dita
+2026-05-15 04:58:09,815 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Playing a CD and Connecting Headphones' → type=task, confidence=low
+2026-05-15 04:58:09,829 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:09,831 [WARNING] layers.layer4_quality_autofix: L4 ✗ review: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBZocNG81u2PoHWSVD'}
+2026-05-15 04:58:09,832 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 4 review — quality=fair, accuracy=0%
+2026-05-15 04:58:09,832 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 4: Autofix ──
+2026-05-15 04:58:09,832 [INFO] layers.layer4_quality_autofix: L4 › autofix: 0 broken
+2026-05-15 04:58:09,834 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 4 autofix — fixed=0, flagged=0, failed=0
+2026-05-15 04:58:09,834 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Final Validation ──
+2026-05-15 04:58:09,835 [INFO] layers.layer5_final_validation: L5 ── structural validation start
+2026-05-15 04:58:09,836 [INFO] layers.layer5_final_validation: L5 ⚠ approval/approval.dita — 1 issue(s)
+2026-05-15 04:58:09,837 [INFO] layers.layer5_final_validation: L5 ⚠ comments/comments.dita — 1 issue(s)
+2026-05-15 04:58:09,838 [INFO] layers.layer5_final_validation: L5 ⚠ consumables/consumables.dita — 1 issue(s)
+2026-05-15 04:58:09,839 [INFO] layers.layer5_final_validation: L5 ⚠ equipment_needed/equipment_needed.dita — 1 issue(s)
+2026-05-15 04:58:09,841 [INFO] layers.layer5_final_validation: L5 ⚠ glass_cube_polishing/glass_cube_polishing.dita — 1 issue(s)
+2026-05-15 04:58:09,842 [INFO] layers.layer5_final_validation: L5 ⚠ glass_cube_sampling/glass_cube_sampling.dita — 1 issue(s)
+2026-05-15 04:58:09,843 [INFO] layers.layer5_final_validation: L5 ⚠ glass_sampling_and_polishing.dita — 1 issue(s)
+2026-05-15 04:58:09,844 [INFO] layers.layer5_final_validation: L5 ⚠ ppe_required/general.dita — 1 issue(s)
+2026-05-15 04:58:09,845 [INFO] layers.layer5_final_validation: L5 ⚠ ppe_required/ppe_required.dita — 2 issue(s)
+2026-05-15 04:58:09,846 [INFO] layers.layer5_final_validation: L5 ⚠ ppe_required/required_for_specific_sections.dita — 1 issue(s)
+2026-05-15 04:58:09,846 [INFO] layers.layer5_final_validation: L5 ⚠ purpose_application/purpose_application.dita — 1 issue(s)
+2026-05-15 04:58:09,847 [INFO] layers.layer5_final_validation: L5 ⚠ revision_history/revision_history.dita — 1 issue(s)
+2026-05-15 04:58:09,848 [INFO] layers.layer5_final_validation: L5 ⚠ safety_controls/safety_controls.dita — 1 issue(s)
+2026-05-15 04:58:09,849 [INFO] layers.layer5_final_validation: L5 ⚠ safety_hazards/safety_hazards.dita — 1 issue(s)
+2026-05-15 04:58:09,850 [INFO] layers.layer5_final_validation: L5 ✓ done pass=True acc=100% crit=0 err=0 warn=15
+2026-05-15 04:58:09,850 [INFO] layers.layer5_final_validation: L5 DTD schema start
+2026-05-15 04:58:09,851 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    approval.dita
+2026-05-15 04:58:09,851 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    comments.dita
+2026-05-15 04:58:09,852 [INFO] utils.dita_schema_validator: [SchemaValidator] WARNINGS consumables.dita — 12 issue(s)
+2026-05-15 04:58:09,853 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    equipment_needed.dita
+2026-05-15 04:58:09,853 [INFO] utils.dita_schema_validator: [SchemaValidator] WARNINGS glass_cube_polishing.dita — 15 issue(s)
+2026-05-15 04:58:09,854 [INFO] utils.dita_schema_validator: [SchemaValidator] WARNINGS glass_cube_sampling.dita — 17 issue(s)
+2026-05-15 04:58:09,855 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    glass_sampling_and_polishing.dita
+2026-05-15 04:58:09,855 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    general.dita
+2026-05-15 04:58:09,856 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    ppe_required.dita
+2026-05-15 04:58:09,856 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    required_for_specific_sections.dita
+2026-05-15 04:58:09,856 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    purpose_application.dita
+2026-05-15 04:58:09,857 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    revision_history.dita
+2026-05-15 04:58:09,857 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    safety_controls.dita
+2026-05-15 04:58:09,858 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    safety_hazards.dita
+2026-05-15 04:58:09,858 [INFO] utils.dita_schema_validator: [SchemaValidator] ── DONE ── schema_passed=True, valid=14/14
+2026-05-15 04:58:09,858 [INFO] layers.layer5_final_validation: L5 DTD schema pass=True valid=14/14
+2026-05-15 04:58:09,858 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 — passed=True, accuracy=100%
+2026-05-15 04:58:09,859 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment Structural Validation ──
+2026-05-15 04:58:09,859 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-05-15 04:58:09,864 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-05-15 04:58:09,867 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-05-15 04:58:09,871 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-05-15 04:58:09,872 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-05-15 04:58:09,873 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_body]: 'ppe_required/ppe_required.dita' — <conbody> exists but has no child elements or text content
+2026-05-15 04:58:09,873 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'ppe_required/ppe_required.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:09,876 [WARNING] utils.structure_validator: [StructureValidator] WARNING [step_empty_cmd]: 'glass_cube_polishing/glass_cube_polishing.dita' — step 9 has an empty <cmd> element
+2026-05-15 04:58:09,876 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'glass_cube_polishing/glass_cube_polishing.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,877 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'glass_cube_polishing/glass_cube_polishing.dita' — <table> #2 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,877 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'glass_cube_polishing/glass_cube_polishing.dita' — <table> #3 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,877 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'glass_cube_polishing/glass_cube_polishing.dita' — <table> #4 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,877 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'glass_cube_polishing/glass_cube_polishing.dita' — <table> #5 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,878 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_polishing/glass_cube_polishing.dita' — <image> #1 (href='../media/image8.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,878 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_polishing/glass_cube_polishing.dita' — <image> #2 (href='../media/image1.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,878 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_polishing/glass_cube_polishing.dita' — <image> #3 (href='../media/image1.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,878 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_polishing/glass_cube_polishing.dita' — <image> #4 (href='../media/image1.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,878 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_polishing/glass_cube_polishing.dita' — <image> #5 (href='../media/image9.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,879 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_polishing/glass_cube_polishing.dita' — <image> #6 (href='../media/image10.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,879 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_polishing/glass_cube_polishing.dita' — <image> #7 (href='../media/image11.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,879 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_polishing/glass_cube_polishing.dita' — <image> #8 (href='../media/image12.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,879 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_polishing/glass_cube_polishing.dita' — <image> #9 (href='../media/image1.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,879 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_polishing/glass_cube_polishing.dita' — <image> #10 (href='../media/image13.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,880 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_polishing/glass_cube_polishing.dita' — <image> #11 (href='../media/image1.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,880 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_polishing/glass_cube_polishing.dita' — <image> #12 (href='../media/image14.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,880 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_polishing/glass_cube_polishing.dita' — <image> #13 (href='../media/image15.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,880 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_polishing/glass_cube_polishing.dita' — <image> #14 (href='../media/image16.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,880 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_polishing/glass_cube_polishing.dita' — <image> #15 (href='../media/image17.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,882 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'consumables/consumables.dita' — <image> #1 (href='../media/image18.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,882 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'consumables/consumables.dita' — <image> #2 (href='../media/image19.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,882 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'consumables/consumables.dita' — <image> #3 (href='../media/image20.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,883 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'consumables/consumables.dita' — <image> #4 (href='../media/image21.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,883 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'consumables/consumables.dita' — <image> #5 (href='../media/image22.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,883 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'consumables/consumables.dita' — <image> #6 (href='../media/image23.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,883 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'consumables/consumables.dita' — <image> #7 (href='../media/image24.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,883 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'consumables/consumables.dita' — <image> #8 (href='../media/image25.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,884 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'consumables/consumables.dita' — <image> #9 (href='../media/image26.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,884 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'consumables/consumables.dita' — <image> #10 (href='../media/image27.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,884 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'consumables/consumables.dita' — <image> #11 (href='../media/image28.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,884 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'consumables/consumables.dita' — <image> #12 (href='../media/image29.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,885 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'revision_history/revision_history.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,887 [WARNING] utils.structure_validator: [StructureValidator] WARNING [invalid_conbody_child]: 'glass_cube_sampling/glass_cube_sampling.dita' — <conbody> contains unexpected element <info> — not standard in concept body
+2026-05-15 04:58:09,887 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'glass_cube_sampling/glass_cube_sampling.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,888 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'glass_cube_sampling/glass_cube_sampling.dita' — <table> #2 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,888 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'glass_cube_sampling/glass_cube_sampling.dita' — <table> #3 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,888 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'glass_cube_sampling/glass_cube_sampling.dita' — <table> #4 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,888 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'glass_cube_sampling/glass_cube_sampling.dita' — <table> #5 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,888 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #1 (href='../media/image1.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,888 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #2 (href='../media/image2.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,889 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #3 (href='../media/image3.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,889 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #4 (href='../media/image1.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,889 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #5 (href='../media/image4.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,889 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #6 (href='../media/image5.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,889 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #7 (href='../media/image6.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,889 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #8 (href='../media/image1.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,889 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #9 (href='../media/image4.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,889 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #10 (href='../media/image5.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,889 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #11 (href='../media/image1.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,889 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #12 (href='../media/image4.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,890 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #13 (href='../media/image5.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,890 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #14 (href='../media/image7.png') has no alt text — required for accessibility
+2026-05-15 04:58:09,890 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #15 (href='../media/image1.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,890 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #16 (href='../media/image4.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,890 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'glass_cube_sampling/glass_cube_sampling.dita' — <image> #17 (href='../media/image5.jpg') has no alt text — required for accessibility
+2026-05-15 04:58:09,892 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'approval/approval.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,892 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'safety_hazards/safety_hazards.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:09,893 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=62 | dita_files=14, broken_xml=0, empty=1, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=1, filename_spaces=0
+2026-05-15 04:58:09,893 [INFO] pipeline.enrich_runner: [EnrichPipeline] Post-structural — CRITICAL=0, WARNING=62
+2026-05-15 04:58:09,894 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment AI Content Quality Check ──
+2026-05-15 04:58:09,896 [INFO] utils.structure_validator: [EnrichmentQuality] Post-AI check — 2 issues in 14 files (CRITICAL=0, WARNING=2)
+2026-05-15 04:58:09,897 [INFO] pipeline.enrich_runner: [EnrichPipeline] AI content quality — CRITICAL=0, WARNING=2 (checks: shortdesc, keywords, indexterms)
+2026-05-15 04:58:09,897 [INFO] pipeline.enrich_runner: [EnrichPipeline] Fix report — backend_errors=0 | fixed_by_zone1=0, fixed_by_ai=16, remaining=61, ai_obligations_missed=1, new_by_ai=1
+2026-05-15 04:58:09,900 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/ai_reports/_agent_report.json
+2026-05-15 04:58:09,900 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 6: Suggestion Agent ──
+2026-05-15 04:58:09,909 [INFO] layers.layer6_fix_agent: L6/Suggest ── Started ──
+2026-05-15 04:58:09,910 [INFO] layers.layer6_fix_agent: L6/Suggest 29 issues (pre-dedup)
+2026-05-15 04:58:09,911 [INFO] layers.layer6_fix_agent: L6/Suggest 27 unique issues
+2026-05-15 04:58:09,912 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl empty_body ppe_required/ppe_required.dita
+2026-05-15 04:58:09,913 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_shortdesc ppe_required/ppe_required.dita
+2026-05-15 04:58:09,913 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl step_empty_cmd glass_cube_polishing/glass_cube_polishing.dita
+2026-05-15 04:58:09,913 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl table_missing_title glass_cube_polishing/glass_cube_polishing.dita
+2026-05-15 04:58:09,914 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl image_missing_alt glass_cube_polishing/glass_cube_polishing.dita
+2026-05-15 04:58:09,914 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl image_missing_alt consumables/consumables.dita
+2026-05-15 04:58:09,914 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl table_missing_title revision_history/revision_history.dita
+2026-05-15 04:58:09,914 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl table_missing_title glass_cube_sampling/glass_cube_sampling.dita
+2026-05-15 04:58:09,915 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl image_missing_alt glass_cube_sampling/glass_cube_sampling.dita
+2026-05-15 04:58:09,915 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl table_missing_title approval/approval.dita
+2026-05-15 04:58:09,915 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl table_missing_title safety_hazards/safety_hazards.dita
+2026-05-15 04:58:09,916 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prolog ppe_required/ppe_required.dita
+2026-05-15 04:58:09,916 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl invalid_conbody_child glass_cube_sampling/glass_cube_sampling.dita
+2026-05-15 04:58:09,916 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname approval/approval.dita
+2026-05-15 04:58:09,916 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname comments/comments.dita
+2026-05-15 04:58:09,916 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname consumables/consumables.dita
+2026-05-15 04:58:09,917 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname equipment_needed/equipment_needed.dita
+2026-05-15 04:58:09,917 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname glass_cube_polishing/glass_cube_polishing.dita
+2026-05-15 04:58:09,917 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname glass_cube_sampling/glass_cube_sampling.dita
+2026-05-15 04:58:09,917 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname glass_sampling_and_polishing.dita
+2026-05-15 04:58:09,918 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname ppe_required/general.dita
+2026-05-15 04:58:09,918 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname ppe_required/required_for_specific_sections.dita
+2026-05-15 04:58:09,918 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname purpose_application/purpose_application.dita
+2026-05-15 04:58:09,918 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname revision_history/revision_history.dita
+2026-05-15 04:58:09,919 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname safety_controls/safety_controls.dita
+2026-05-15 04:58:09,919 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname safety_hazards/safety_hazards.dita
+2026-05-15 04:58:09,920 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:09,921 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:09,922 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBa3kJDAyQpGJuXzHb'}
+2026-05-15 04:58:09,922 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Playing DVDs'
+2026-05-15 04:58:09,924 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,924 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc playing_dvds.dita
+2026-05-15 04:58:09,926 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,926 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog playing_dvds.dita
+2026-05-15 04:58:09,932 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Playing DVDs' → type=task, confidence=low
+2026-05-15 04:58:09,933 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBa2ky5213BRvK42bX'}
+2026-05-15 04:58:09,933 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Operating Environment'
+2026-05-15 04:58:09,934 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic operating_environment.dita
+2026-05-15 04:58:09,935 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,935 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc operating_environment.dita
+2026-05-15 04:58:09,937 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,937 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog operating_environment.dita
+2026-05-15 04:58:09,943 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Operating Environment' → type=topic, confidence=low
+2026-05-15 04:58:09,948 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:09,949 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBZrqZ7PFgWMeB2nw2'}
+2026-05-15 04:58:09,950 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Pairing Your Apple Remote'
+2026-05-15 04:58:09,951 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,951 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc pairing_your_apple_remote.dita
+2026-05-15 04:58:09,953 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:09,954 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog pairing_your_apple_remote.dita
+2026-05-15 04:58:09,959 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Pairing Your Apple Remote' → type=concept, confidence=low
+2026-05-15 04:58:10,021 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,022 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBakuvEqs6xGp1ottB'}
+2026-05-15 04:58:10,023 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Approval'
+2026-05-15 04:58:10,024 [INFO] layers.layer1_topic_classifier: L1 ✓ reference→concept approval.dita
+2026-05-15 04:58:10,025 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,025 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc approval.dita
+2026-05-15 04:58:10,027 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,027 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog approval.dita
+2026-05-15 04:58:10,028 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Approval' → type=concept, confidence=low
+2026-05-15 04:58:10,031 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,032 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBapdTcMVGmdP12uvd'}
+2026-05-15 04:58:10,033 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Batch System Screens'
+2026-05-15 04:58:10,035 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task batch_system_screens.dita
+2026-05-15 04:58:10,035 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,036 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc batch_system_screens.dita
+2026-05-15 04:58:10,037 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,038 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog batch_system_screens.dita
+2026-05-15 04:58:10,039 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Batch System Screens' → type=task, confidence=low
+2026-05-15 04:58:10,045 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,046 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBasrc9vMZMJ2QUB2H'}
+2026-05-15 04:58:10,046 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Comments'
+2026-05-15 04:58:10,048 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic comments.dita
+2026-05-15 04:58:10,048 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,049 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc comments.dita
+2026-05-15 04:58:10,050 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,051 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog comments.dita
+2026-05-15 04:58:10,051 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Comments' → type=topic, confidence=low
+2026-05-15 04:58:10,075 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,077 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBarNSQr7ShY5AiemD'}
+2026-05-15 04:58:10,077 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Basic Layout of Each Screen'
+2026-05-15 04:58:10,081 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,082 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc basic_layout_of_each_screen.dita
+2026-05-15 04:58:10,085 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,086 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog basic_layout_of_each_screen.dita
+2026-05-15 04:58:10,091 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Basic Layout of Each Screen' → type=concept, confidence=low
+2026-05-15 04:58:10,115 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,117 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBax4sduxb53c27PjZ'}
+2026-05-15 04:58:10,117 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Batch Cullet Weighing Screens'
+2026-05-15 04:58:10,120 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task batch_cullet_weighing_screens.dita
+2026-05-15 04:58:10,120 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,121 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc batch_cullet_weighing_screens.dita
+2026-05-15 04:58:10,123 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,124 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog batch_cullet_weighing_screens.dita
+2026-05-15 04:58:10,125 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Batch Cullet Weighing Screens' → type=task, confidence=low
+2026-05-15 04:58:10,136 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,138 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBbJQZriWaWb9uDdJ9'}
+2026-05-15 04:58:10,139 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Power Adapter'
+2026-05-15 04:58:10,141 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic power_adapter.dita
+2026-05-15 04:58:10,141 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,142 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc power_adapter.dita
+2026-05-15 04:58:10,145 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,145 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog power_adapter.dita
+2026-05-15 04:58:10,155 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Power Adapter' → type=topic, confidence=low
+2026-05-15 04:58:10,159 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,160 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBbK9Xoeo3xWghzgjv'}
+2026-05-15 04:58:10,161 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'PPPoE Connections'
+2026-05-15 04:58:10,163 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task pppoe_connections.dita
+2026-05-15 04:58:10,163 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,164 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc pppoe_connections.dita
+2026-05-15 04:58:10,166 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,167 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog pppoe_connections.dita
+2026-05-15 04:58:10,177 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'PPPoE Connections' → type=task, confidence=low
+2026-05-15 04:58:10,284 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,285 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBbvrXiX9qEQy1Lx2L'}
+2026-05-15 04:58:10,285 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Putting Your MacBook Pro to Sleep'
+2026-05-15 04:58:10,287 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,287 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc putting_your_macbook_pro_to_sleep.dita
+2026-05-15 04:58:10,289 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,289 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog putting_your_macbook_pro_to_sleep.dita
+2026-05-15 04:58:10,295 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Putting Your MacBook Pro to Sleep' → type=concept, confidence=low
+2026-05-15 04:58:10,298 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,300 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBbw6tRdTrSx96nvJX'}
+2026-05-15 04:58:10,300 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Read this important MacBook Pro safety and maintenance information.'
+2026-05-15 04:58:10,302 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,302 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc read_this_important_macbook_pro_safety_and_maintenance_information.dita
+2026-05-15 04:58:10,304 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,304 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog read_this_important_macbook_pro_safety_and_maintenance_information.dita
+2026-05-15 04:58:10,310 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Read this important MacBook Pro safety and maintenance information.' → type=concept, confidence=low
+2026-05-15 04:58:10,346 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,347 [WARNING] layers.layer6_fix_agent: L6/Suggest ✗ Claude glass_cube_polishing/glass_cube_polishing.dita: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBc7WzxHbN5FA3CZpJ'}
+2026-05-15 04:58:10,348 [INFO] layers.layer6_fix_agent: L6/Suggest ✓ 27 suggestions
+2026-05-15 04:58:10,350 [INFO] layers.layer6_fix_agent: L6/Suggest ✓ saved 27 suggestions
+2026-05-15 04:58:10,350 [INFO] layers.layer6_fix_agent: L6/Suggest ── Done ──
+2026-05-15 04:58:10,350 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 6 — suggestions_generated=27
+2026-05-15 04:58:10,354 [INFO] pipeline.enrich_runner: [EnrichPipeline] Final element counts (post-enrichment): {'ol': 2, 'ul': 34, 'table': 13, 'image': 29, 'crosslink': 2, 'hyperlink': 11, 'concept': 6, 'task': 1, 'reference': 0, 'topic': 7}
+2026-05-15 04:58:10,358 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/ai_reports/_agent_report.json
+2026-05-15 04:58:10,359 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/ai_reports/pre_enrichment.json
+2026-05-15 04:58:10,361 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/ai_reports/post_enrichment.json
+2026-05-15 04:58:10,361 [INFO] pipeline.enrich_runner: =================================================================
+2026-05-15 04:58:10,362 [INFO] pipeline.enrich_runner: [EnrichPipeline] JOB COMPLETED  job_id=ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9
+2026-05-15 04:58:10,362 [INFO] pipeline.enrich_runner: [EnrichPipeline] Log file : /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/ai_logs/ai_enrichment.log
+2026-05-15 04:58:10,362 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reports  : /app/output/ebe69ab1-b3e5-4bb7-87f3-cf8ed3b0a5e9/ai_reports
+2026-05-15 04:58:10,362 [INFO] pipeline.enrich_runner: =================================================================
+2026-05-15 04:58:10,382 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup deleted after successful enrichment
+2026-05-15 04:58:10,385 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,387 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBcKRFLcXSuTtUCCZ2'}
+2026-05-15 04:58:10,388 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Maintenance Screens'
+2026-05-15 04:58:10,390 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task maintenance_screens.dita
+2026-05-15 04:58:10,390 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,391 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc maintenance_screens.dita
+2026-05-15 04:58:10,392 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,393 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog maintenance_screens.dita
+2026-05-15 04:58:10,394 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Maintenance Screens' → type=task, confidence=low
+2026-05-15 04:58:10,422 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,424 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBcWaZwgRdV14xVzeA'}
+2026-05-15 04:58:10,424 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'General'
+2026-05-15 04:58:10,426 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic general.dita
+2026-05-15 04:58:10,426 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,427 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc general.dita
+2026-05-15 04:58:10,428 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,429 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog general.dita
+2026-05-15 04:58:10,430 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'General' → type=topic, confidence=low
+2026-05-15 04:58:10,448 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,449 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBcKRGay641yxixSGz'}
+2026-05-15 04:58:10,449 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Navigating the SCADA Operating Screens'
+2026-05-15 04:58:10,451 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic navigating_the_scada_operating_screens.dita
+2026-05-15 04:58:10,451 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,452 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc navigating_the_scada_operating_screens.dita
+2026-05-15 04:58:10,453 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,454 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog navigating_the_scada_operating_screens.dita
+2026-05-15 04:58:10,455 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Navigating the SCADA Operating Screens' → type=topic, confidence=low
+2026-05-15 04:58:10,460 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,461 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBceGMtTn5c4WCta3e'}
+2026-05-15 04:58:10,461 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Purpose/Application'
+2026-05-15 04:58:10,463 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task purpose_application.dita
+2026-05-15 04:58:10,464 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,464 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc purpose_application.dita
+2026-05-15 04:58:10,466 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,466 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog purpose_application.dita
+2026-05-15 04:58:10,468 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Purpose/Application' → type=task, confidence=low
+2026-05-15 04:58:10,472 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,473 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBcU72dCpduu9bPBjS'}
+2026-05-15 04:58:10,474 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Equipment Needed'
+2026-05-15 04:58:10,475 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic equipment_needed.dita
+2026-05-15 04:58:10,476 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,476 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc equipment_needed.dita
+2026-05-15 04:58:10,477 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,478 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog equipment_needed.dita
+2026-05-15 04:58:10,479 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Equipment Needed' → type=topic, confidence=low
+2026-05-15 04:58:10,488 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,490 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBc4HzQAPNVccpjySv'}
+2026-05-15 04:58:10,490 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Putting Your MacBook Pro to Sleep or Shutting It Down'
+2026-05-15 04:58:10,491 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic putting_your_macbook_pro_to_sleep_or_shutting_it_down.dita
+2026-05-15 04:58:10,492 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,492 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc putting_your_macbook_pro_to_sleep_or_shutting_it_down.dita
+2026-05-15 04:58:10,494 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,495 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog putting_your_macbook_pro_to_sleep_or_shutting_it_down.dita
+2026-05-15 04:58:10,501 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Putting Your MacBook Pro to Sleep or Shutting It Down' → type=topic, confidence=low
+2026-05-15 04:58:10,504 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,505 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,506 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBcruqwcSFhr5YWbSg'}
+2026-05-15 04:58:10,507 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Reinstalling the Software That Came With Your Computer'
+2026-05-15 04:58:10,508 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,508 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc reinstalling_the_software_that_came_with_your_computer.dita
+2026-05-15 04:58:10,510 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,511 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog reinstalling_the_software_that_came_with_your_computer.dita
+2026-05-15 04:58:10,517 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Reinstalling the Software That Came With Your Computer' → type=concept, confidence=low
+2026-05-15 04:58:10,518 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBcsQvwM7ajvWeoJ9o'}
+2026-05-15 04:58:10,518 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Recording on CD and DVD Discs'
+2026-05-15 04:58:10,519 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,520 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc recording_on_cd_and_dvd_discs.dita
+2026-05-15 04:58:10,522 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,522 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog recording_on_cd_and_dvd_discs.dita
+2026-05-15 04:58:10,529 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Recording on CD and DVD Discs' → type=task, confidence=low
+2026-05-15 04:58:10,632 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,634 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBdReMuG3yD4WGib5Q'}
+2026-05-15 04:58:10,634 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Removing and Replacing the Battery'
+2026-05-15 04:58:10,636 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,637 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc removing_and_replacing_the_battery.dita
+2026-05-15 04:58:10,639 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,640 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog removing_and_replacing_the_battery.dita
+2026-05-15 04:58:10,649 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Removing and Replacing the Battery' → type=concept, confidence=low
+2026-05-15 04:58:10,652 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,654 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBdUsYHADLhRhkmHsF'}
+2026-05-15 04:58:10,654 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Replacing the Battery'
+2026-05-15 04:58:10,656 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic replacing_the_battery.dita
+2026-05-15 04:58:10,656 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,657 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replacing_the_battery.dita
+2026-05-15 04:58:10,659 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,659 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog replacing_the_battery.dita
+2026-05-15 04:58:10,665 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Replacing the Battery' → type=topic, confidence=low
+2026-05-15 04:58:10,744 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,745 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBduRKX5cUAHj4dysR'}
+2026-05-15 04:58:10,746 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Revision History'
+2026-05-15 04:58:10,747 [INFO] layers.layer1_topic_classifier: L1 ✓ reference→topic revision_history.dita
+2026-05-15 04:58:10,748 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,749 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc revision_history.dita
+2026-05-15 04:58:10,750 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,752 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog revision_history.dita
+2026-05-15 04:58:10,753 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Revision History' → type=topic, confidence=low
+2026-05-15 04:58:10,757 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,758 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBdwQDsETsAcLeFP9g'}
+2026-05-15 04:58:10,759 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Safety Controls'
+2026-05-15 04:58:10,760 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic safety_controls.dita
+2026-05-15 04:58:10,761 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,762 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc safety_controls.dita
+2026-05-15 04:58:10,764 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,764 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog safety_controls.dita
+2026-05-15 04:58:10,766 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Safety Controls' → type=topic, confidence=low
+2026-05-15 04:58:10,801 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,802 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBe6aZe8nu56ed4MRV'}
+2026-05-15 04:58:10,803 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Silo Feeding Screens'
+2026-05-15 04:58:10,805 [INFO] layers.layer1_topic_classifier: L1 ✓ topic→task silo_feeding_screens.dita
+2026-05-15 04:58:10,806 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,807 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc silo_feeding_screens.dita
+2026-05-15 04:58:10,809 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,809 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog silo_feeding_screens.dita
+2026-05-15 04:58:10,811 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Silo Feeding Screens' → type=task, confidence=low
+2026-05-15 04:58:10,813 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,815 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBe4LuQGQivd5bsNvU'}
+2026-05-15 04:58:10,815 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Safety Hazards'
+2026-05-15 04:58:10,817 [INFO] layers.layer1_topic_classifier: L1 ✓ reference→topic safety_hazards.dita
+2026-05-15 04:58:10,818 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,819 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc safety_hazards.dita
+2026-05-15 04:58:10,821 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,821 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog safety_hazards.dita
+2026-05-15 04:58:10,823 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Safety Hazards' → type=topic, confidence=low
+2026-05-15 04:58:10,824 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layers 1+2+3 complete — 15 topics processed
+2026-05-15 04:58:10,825 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reclassification summary — 13 of 15 topics had type changed by AI
+2026-05-15 04:58:10,825 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] approval/approval.dita                                       reference → concept (confidence=low)
+2026-05-15 04:58:10,825 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita concept → task (confidence=low)
+2026-05-15 04:58:10,825 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] batch_system_screens/batch_system_screens.dita               concept → task (confidence=low)
+2026-05-15 04:58:10,825 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] comments/comments.dita                                       concept → topic (confidence=low)
+2026-05-15 04:58:10,826 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] equipment_needed/equipment_needed.dita                       concept → topic (confidence=low)
+2026-05-15 04:58:10,826 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] maintenance_screens/maintenance_screens.dita                 concept → task (confidence=low)
+2026-05-15 04:58:10,826 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] navigating_the_scada_operating_screens.dita                  concept → topic (confidence=low)
+2026-05-15 04:58:10,826 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] ppe_required/general.dita                                    concept → topic (confidence=low)
+2026-05-15 04:58:10,826 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] purpose_application/purpose_application.dita                 concept → task (confidence=low)
+2026-05-15 04:58:10,826 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] revision_history/revision_history.dita                       reference → topic (confidence=low)
+2026-05-15 04:58:10,827 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] safety_controls/safety_controls.dita                         concept → topic (confidence=low)
+2026-05-15 04:58:10,827 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] safety_hazards/safety_hazards.dita                           reference → topic (confidence=low)
+2026-05-15 04:58:10,827 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] silo_feeding_screens/silo_feeding_screens.dita               topic → task (confidence=low)
+2026-05-15 04:58:10,827 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ AFTER ENRICHMENT ═══════════════════════════════
+2026-05-15 04:58:10,827 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  approval/approval.dita                             type=concept    shortdesc='Representatives of the MAGMA Approval Team'
+2026-05-15 04:58:10,827 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Approval', 'Manager', 'Representatives', 'MAGMA', 'Team', 'Person'] | indexterms=['Approval', 'Manager', 'Representatives']
+2026-05-15 04:58:10,828 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  basic_layout_of_each_screen/basic_layout_of_each_screen.dita type=concept    shortdesc='As shown below on the main menu, each screen is divided into three sec…'
+2026-05-15 04:58:10,828 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['screen', 'operator', 'operation', 'screens', 'buttons', 'messages'] | indexterms=['screen', 'operator', 'operation']
+2026-05-15 04:58:10,828 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita type=task       shortdesc='Click on the Batch Cullet Weighing tab at the top of the screen to dis…'
+2026-05-15 04:58:10,829 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Batch', 'Cullet', 'Weighing', 'screen', 'Integration', 'Screens'] | indexterms=['Batch', 'Cullet', 'Weighing']
+2026-05-15 04:58:10,829 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  batch_system_screens/batch_system_screens.dita     type=task       shortdesc='Click on the Batch System tab at the top of the screen to display the'
+2026-05-15 04:58:10,829 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Batch', 'batch', 'System', 'screen', 'operation', 'scales'] | indexterms=['Batch', 'batch', 'System']
+2026-05-15 04:58:10,829 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  comments/comments.dita                             type=topic      shortdesc='Read a section thoroughly before starting the work. Personnel performi…'
+2026-05-15 04:58:10,830 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Comments', 'Read', 'section', 'thoroughly', 'before', 'starting'] | indexterms=['Comments', 'Read', 'section']
+2026-05-15 04:58:10,830 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  equipment_needed/equipment_needed.dita             type=topic      shortdesc='Access to the SCADA operating system.'
+2026-05-15 04:58:10,830 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Equipment', 'Needed', 'Access', 'SCADA', 'operating', 'system'] | indexterms=['Equipment', 'Needed', 'Access']
+2026-05-15 04:58:10,830 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  maintenance_screens/maintenance_screens.dita       type=task       shortdesc='Click on the Maintenance tab at the top of the screen to display the m…'
+2026-05-15 04:58:10,830 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Maintenance', 'screen', 'Screens', 'Click', 'display', 'shown'] | indexterms=['Maintenance', 'screen', 'Screens']
+2026-05-15 04:58:10,831 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  navigating_the_scada_operating_screens.dita        type=topic      shortdesc='2022-10-01'
+2026-05-15 04:58:10,831 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Navigating', 'SCADA', 'Operating', 'Screens'] | indexterms=['Navigating', 'SCADA', 'Operating']
+2026-05-15 04:58:10,831 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  ppe_required/general.dita                          type=topic      shortdesc='Bump cap, safety glasses, hearing protection, long sleeves, safety-toe…'
+2026-05-15 04:58:10,831 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['General', 'safety', 'respirator', 'PAPR', 'Bump', 'glasses'] | indexterms=['General', 'safety', 'respirator']
+2026-05-15 04:58:10,831 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  ppe_required/ppe_required.dita                     SKIPPED (empty topic)
+2026-05-15 04:58:10,832 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  purpose_application/purpose_application.dita       type=task       shortdesc='Describes how to navigate and use the SCADA operating screens for the …'
+2026-05-15 04:58:10,832 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Purpose', 'Application', 'Describes', 'navigate', 'SCADA', 'operating'] | indexterms=['Purpose', 'Application', 'Describes']
+2026-05-15 04:58:10,832 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  revision_history/revision_history.dita             type=topic      shortdesc='2022-10-01 Approved by Johnathan Fisher, SBS Manager – R&amp;D Origina…'
+2026-05-15 04:58:10,832 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Revision', 'History', 'Approved', 'Johnathan', 'Fisher', 'Manager'] | indexterms=['Revision', 'History', 'Approved']
+2026-05-15 04:58:10,832 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  safety_controls/safety_controls.dita               type=topic      shortdesc='The Hazard Communication Standard (HCS) requires chemicals to have Saf…'
+2026-05-15 04:58:10,832 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Safety', 'Controls', 'chemicals', 'measures', 'Hazard', 'Communication'] | indexterms=['Safety', 'Controls', 'chemicals']
+2026-05-15 04:58:10,832 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  safety_hazards/safety_hazards.dita                 type=topic      shortdesc='Overview of Safety Hazards.'
+2026-05-15 04:58:10,833 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Safety', 'Hazards'] | indexterms=['Safety', 'Hazards']
+2026-05-15 04:58:10,833 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  silo_feeding_screens/silo_feeding_screens.dita     type=task       shortdesc='Click on the Silo Feeding tab at the top of the screen to display the'
+2026-05-15 04:58:10,833 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Silo', 'Feeding', 'Screens', 'Click', 'screen', 'display'] | indexterms=['Silo', 'Feeding', 'Screens']
+2026-05-15 04:58:10,833 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 4: Quality Review ──
+2026-05-15 04:58:10,837 [INFO] layers.layer4_quality_autofix: L4 › approval/approval.dita at /app/output/3a58c1d4-6008-422b-9308-c16124728d23/approval/approval.dita
+2026-05-15 04:58:10,837 [INFO] layers.layer4_quality_autofix: L4 › basic_layout_of_each_screen/basic_layout_of_each_screen.dita at /app/output/3a58c1d4-6008-422b-9308-c16124728d23/basic_layout_of_each_screen/basic_layout_of_each_screen.dita
+2026-05-15 04:58:10,838 [INFO] layers.layer4_quality_autofix: L4 › batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita at /app/output/3a58c1d4-6008-422b-9308-c16124728d23/batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita
+2026-05-15 04:58:10,838 [INFO] layers.layer4_quality_autofix: L4 › batch_system_screens/batch_system_screens.dita at /app/output/3a58c1d4-6008-422b-9308-c16124728d23/batch_system_screens/batch_system_screens.dita
+2026-05-15 04:58:10,838 [INFO] layers.layer4_quality_autofix: L4 › comments/comments.dita at /app/output/3a58c1d4-6008-422b-9308-c16124728d23/comments/comments.dita
+2026-05-15 04:58:10,838 [INFO] layers.layer4_quality_autofix: L4 › equipment_needed/equipment_needed.dita at /app/output/3a58c1d4-6008-422b-9308-c16124728d23/equipment_needed/equipment_needed.dita
+2026-05-15 04:58:10,839 [INFO] layers.layer4_quality_autofix: L4 › maintenance_screens/maintenance_screens.dita at /app/output/3a58c1d4-6008-422b-9308-c16124728d23/maintenance_screens/maintenance_screens.dita
+2026-05-15 04:58:10,839 [INFO] layers.layer4_quality_autofix: L4 › navigating_the_scada_operating_screens.dita at /app/output/3a58c1d4-6008-422b-9308-c16124728d23/navigating_the_scada_operating_screens.dita
+2026-05-15 04:58:10,839 [INFO] layers.layer4_quality_autofix: L4 › ppe_required/general.dita at /app/output/3a58c1d4-6008-422b-9308-c16124728d23/ppe_required/general.dita
+2026-05-15 04:58:10,839 [INFO] layers.layer4_quality_autofix: L4 › ppe_required/ppe_required.dita at /app/output/3a58c1d4-6008-422b-9308-c16124728d23/ppe_required/ppe_required.dita
+2026-05-15 04:58:10,840 [INFO] layers.layer4_quality_autofix: L4 › purpose_application/purpose_application.dita at /app/output/3a58c1d4-6008-422b-9308-c16124728d23/purpose_application/purpose_application.dita
+2026-05-15 04:58:10,840 [INFO] layers.layer4_quality_autofix: L4 › revision_history/revision_history.dita at /app/output/3a58c1d4-6008-422b-9308-c16124728d23/revision_history/revision_history.dita
+2026-05-15 04:58:10,840 [INFO] layers.layer4_quality_autofix: L4 › safety_controls/safety_controls.dita at /app/output/3a58c1d4-6008-422b-9308-c16124728d23/safety_controls/safety_controls.dita
+2026-05-15 04:58:10,841 [INFO] layers.layer4_quality_autofix: L4 › safety_hazards/safety_hazards.dita at /app/output/3a58c1d4-6008-422b-9308-c16124728d23/safety_hazards/safety_hazards.dita
+2026-05-15 04:58:10,841 [INFO] layers.layer4_quality_autofix: L4 › silo_feeding_screens/silo_feeding_screens.dita at /app/output/3a58c1d4-6008-422b-9308-c16124728d23/silo_feeding_screens/silo_feeding_screens.dita
+2026-05-15 04:58:10,841 [INFO] layers.layer4_quality_autofix: L4 › review 15/15 topics (0 skipped)
+2026-05-15 04:58:10,855 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,856 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBeNSrGWJhL8jG8k8d'}
+2026-05-15 04:58:10,856 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Setting Up Your MacBook Pro'
+2026-05-15 04:58:10,859 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task setting_up_your_macbook_pro.dita
+2026-05-15 04:58:10,859 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,860 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc setting_up_your_macbook_pro.dita
+2026-05-15 04:58:10,862 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,863 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog setting_up_your_macbook_pro.dita
+2026-05-15 04:58:10,871 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Setting Up Your MacBook Pro' → type=task, confidence=low
+2026-05-15 04:58:10,875 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,876 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBeNwmyKK82uE8yR56'}
+2026-05-15 04:58:10,876 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Securing Your MacBook Pro'
+2026-05-15 04:58:10,878 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic securing_your_macbook_pro.dita
+2026-05-15 04:58:10,878 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,879 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc securing_your_macbook_pro.dita
+2026-05-15 04:58:10,881 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,881 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog securing_your_macbook_pro.dita
+2026-05-15 04:58:10,887 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Securing Your MacBook Pro' → type=topic, confidence=low
+2026-05-15 04:58:10,983 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:10,985 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBewRoEykjcEcxuKoZ'}
+2026-05-15 04:58:10,985 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Setting Up Your MacBook Pro and Power Adapter'
+2026-05-15 04:58:10,988 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task setting_up_your_macbook_pro_and_power_adapter.dita
+2026-05-15 04:58:10,989 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,989 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc setting_up_your_macbook_pro_and_power_adapter.dita
+2026-05-15 04:58:10,992 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:10,992 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog setting_up_your_macbook_pro_and_power_adapter.dita
+2026-05-15 04:58:11,004 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Setting Up Your MacBook Pro and Power Adapter' → type=task, confidence=low
+2026-05-15 04:58:11,007 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:11,009 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBeSRHiKq6WEnxEmJt'}
+2026-05-15 04:58:11,010 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Setting Up a Bluetooth Device'
+2026-05-15 04:58:11,012 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task setting_up_a_bluetooth_device.dita
+2026-05-15 04:58:11,012 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:11,013 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc setting_up_a_bluetooth_device.dita
+2026-05-15 04:58:11,016 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:11,016 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog setting_up_a_bluetooth_device.dita
+2026-05-15 04:58:11,027 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Setting Up a Bluetooth Device' → type=task, confidence=low
+2026-05-15 04:58:11,092 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:11,094 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBfEnXsxFDeo5g7t3R'}
+2026-05-15 04:58:11,094 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Shutting Down Your MacBook Pro'
+2026-05-15 04:58:11,096 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic shutting_down_your_macbook_pro.dita
+2026-05-15 04:58:11,096 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:11,097 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc shutting_down_your_macbook_pro.dita
+2026-05-15 04:58:11,099 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:11,099 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog shutting_down_your_macbook_pro.dita
+2026-05-15 04:58:11,106 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Shutting Down Your MacBook Pro' → type=topic, confidence=low
+2026-05-15 04:58:11,166 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:11,168 [WARNING] layers.layer4_quality_autofix: L4 ✗ review: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBfhpNC3xRCZEUjbLN'}
+2026-05-15 04:58:11,168 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 4 review — quality=fair, accuracy=0%
+2026-05-15 04:58:11,168 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 4: Autofix ──
+2026-05-15 04:58:11,168 [INFO] layers.layer4_quality_autofix: L4 › autofix: 0 broken
+2026-05-15 04:58:11,172 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 4 autofix — fixed=0, flagged=0, failed=0
+2026-05-15 04:58:11,172 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Final Validation ──
+2026-05-15 04:58:11,172 [INFO] layers.layer5_final_validation: L5 ── structural validation start
+2026-05-15 04:58:11,174 [INFO] layers.layer5_final_validation: L5 ⚠ approval/approval.dita — 1 issue(s)
+2026-05-15 04:58:11,177 [INFO] layers.layer5_final_validation: L5 ⚠ basic_layout_of_each_screen/basic_layout_of_each_screen.dita — 1 issue(s)
+2026-05-15 04:58:11,178 [INFO] layers.layer5_final_validation: L5 ⚠ batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita — 1 issue(s)
+2026-05-15 04:58:11,180 [INFO] layers.layer5_final_validation: L5 ⚠ batch_system_screens/batch_system_screens.dita — 1 issue(s)
+2026-05-15 04:58:11,181 [INFO] layers.layer5_final_validation: L5 ⚠ comments/comments.dita — 1 issue(s)
+2026-05-15 04:58:11,182 [INFO] layers.layer5_final_validation: L5 ⚠ equipment_needed/equipment_needed.dita — 1 issue(s)
+2026-05-15 04:58:11,184 [INFO] layers.layer5_final_validation: L5 ⚠ maintenance_screens/maintenance_screens.dita — 1 issue(s)
+2026-05-15 04:58:11,185 [INFO] layers.layer5_final_validation: L5 ⚠ navigating_the_scada_operating_screens.dita — 1 issue(s)
+2026-05-15 04:58:11,186 [INFO] layers.layer5_final_validation: L5 ⚠ ppe_required/general.dita — 1 issue(s)
+2026-05-15 04:58:11,187 [INFO] layers.layer5_final_validation: L5 ⚠ ppe_required/ppe_required.dita — 2 issue(s)
+2026-05-15 04:58:11,188 [INFO] layers.layer5_final_validation: L5 ⚠ purpose_application/purpose_application.dita — 1 issue(s)
+2026-05-15 04:58:11,190 [INFO] layers.layer5_final_validation: L5 ⚠ revision_history/revision_history.dita — 1 issue(s)
+2026-05-15 04:58:11,191 [INFO] layers.layer5_final_validation: L5 ⚠ safety_controls/safety_controls.dita — 1 issue(s)
+2026-05-15 04:58:11,192 [INFO] layers.layer5_final_validation: L5 ⚠ safety_hazards/safety_hazards.dita — 1 issue(s)
+2026-05-15 04:58:11,193 [INFO] layers.layer5_final_validation: L5 ⚠ silo_feeding_screens/silo_feeding_screens.dita — 1 issue(s)
+2026-05-15 04:58:11,194 [INFO] layers.layer5_final_validation: L5 ✓ done pass=True acc=100% crit=0 err=0 warn=16
+2026-05-15 04:58:11,194 [INFO] layers.layer5_final_validation: L5 DTD schema start
+2026-05-15 04:58:11,195 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    approval.dita
+2026-05-15 04:58:11,196 [INFO] utils.dita_schema_validator: [SchemaValidator] WARNINGS basic_layout_of_each_screen.dita — 30 issue(s)
+2026-05-15 04:58:11,197 [INFO] utils.dita_schema_validator: [SchemaValidator] WARNINGS batch_cullet_weighing_screens.dita — 6 issue(s)
+2026-05-15 04:58:11,197 [INFO] utils.dita_schema_validator: [SchemaValidator] WARNINGS batch_system_screens.dita — 12 issue(s)
+2026-05-15 04:58:11,198 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    comments.dita
+2026-05-15 04:58:11,198 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    equipment_needed.dita
+2026-05-15 04:58:11,198 [INFO] utils.dita_schema_validator: [SchemaValidator] WARNINGS maintenance_screens.dita — 5 issue(s)
+2026-05-15 04:58:11,199 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    navigating_the_scada_operating_screens.dita
+2026-05-15 04:58:11,199 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    general.dita
+2026-05-15 04:58:11,199 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    ppe_required.dita
+2026-05-15 04:58:11,200 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    purpose_application.dita
+2026-05-15 04:58:11,200 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    revision_history.dita
+2026-05-15 04:58:11,200 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    safety_controls.dita
+2026-05-15 04:58:11,201 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    safety_hazards.dita
+2026-05-15 04:58:11,201 [INFO] utils.dita_schema_validator: [SchemaValidator] WARNINGS silo_feeding_screens.dita — 3 issue(s)
+2026-05-15 04:58:11,201 [INFO] utils.dita_schema_validator: [SchemaValidator] ── DONE ── schema_passed=True, valid=15/15
+2026-05-15 04:58:11,202 [INFO] layers.layer5_final_validation: L5 DTD schema pass=True valid=15/15
+2026-05-15 04:58:11,202 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 — passed=True, accuracy=100%
+2026-05-15 04:58:11,202 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment Structural Validation ──
+2026-05-15 04:58:11,202 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-05-15 04:58:11,209 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-05-15 04:58:11,213 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-05-15 04:58:11,217 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-05-15 04:58:11,219 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-05-15 04:58:11,221 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_body]: 'ppe_required/ppe_required.dita' — <conbody> exists but has no child elements or text content
+2026-05-15 04:58:11,221 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'ppe_required/ppe_required.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-05-15 04:58:11,222 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'silo_feeding_screens/silo_feeding_screens.dita' — <image> #1 (href='../media/image35.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,223 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'silo_feeding_screens/silo_feeding_screens.dita' — <image> #2 (href='../media/image36.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,223 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'silo_feeding_screens/silo_feeding_screens.dita' — <image> #3 (href='../media/image37.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,225 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'maintenance_screens/maintenance_screens.dita' — <image> #1 (href='../media/image56.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,226 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'maintenance_screens/maintenance_screens.dita' — <image> #2 (href='../media/image57.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,226 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'maintenance_screens/maintenance_screens.dita' — <image> #3 (href='../media/image58.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,226 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'maintenance_screens/maintenance_screens.dita' — <image> #4 (href='../media/image59.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,226 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'maintenance_screens/maintenance_screens.dita' — <image> #5 (href='../media/image60.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,230 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:11,231 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #1 (href='../media/image1.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,231 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #2 (href='../media/image2.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,231 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #3 (href='../media/image3.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,231 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #4 (href='../media/image4.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,231 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #5 (href='../media/image5.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,231 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #6 (href='../media/image6.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,232 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #7 (href='../media/image7.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,232 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #8 (href='../media/image8.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,232 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #9 (href='../media/image9.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,232 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #10 (href='../media/image10.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,232 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #11 (href='../media/image11.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,232 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #12 (href='../media/image14.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,232 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #13 (href='../media/image15.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,233 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #14 (href='../media/image18.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,233 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #15 (href='../media/image19.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,233 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #16 (href='../media/image20.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,233 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #17 (href='../media/image21.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,233 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #18 (href='../media/image22.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,233 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #19 (href='../media/image23.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,234 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #20 (href='../media/image24.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,234 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #21 (href='../media/image25.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,234 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #22 (href='../media/image26.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,234 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #23 (href='../media/image27.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,234 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #24 (href='../media/image28.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,234 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #25 (href='../media/image29.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,235 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #26 (href='../media/image30.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,235 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #27 (href='../media/image31.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,235 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #28 (href='../media/image32.jpeg') has no alt text — required for accessibility
+2026-05-15 04:58:11,235 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #29 (href='../media/image33.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,235 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'basic_layout_of_each_screen/basic_layout_of_each_screen.dita' — <image> #30 (href='../media/image34.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,237 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #1 (href='../media/image38.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,238 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #2 (href='../media/image39.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,238 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #3 (href='../media/image40.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,238 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #4 (href='../media/image41.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,238 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #5 (href='../media/image42.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,238 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #6 (href='../media/image43.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,239 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #7 (href='../media/image44.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,239 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #8 (href='../media/image45.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,239 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #9 (href='../media/image46.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,239 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #10 (href='../media/image47.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,239 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #11 (href='../media/image48.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,239 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_system_screens/batch_system_screens.dita' — <image> #12 (href='../media/image49.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,240 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'revision_history/revision_history.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:11,241 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'purpose_application/purpose_application.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-05-15 04:58:11,242 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'approval/approval.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:11,243 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'safety_hazards/safety_hazards.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-05-15 04:58:11,244 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita' — <image> #1 (href='../media/image50.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,244 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita' — <image> #2 (href='../media/image51.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,245 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita' — <image> #3 (href='../media/image52.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,245 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita' — <image> #4 (href='../media/image53.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,245 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita' — <image> #5 (href='../media/image54.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,245 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita' — <image> #6 (href='../media/image55.png') has no alt text — required for accessibility
+2026-05-15 04:58:11,246 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=63 | dita_files=15, broken_xml=0, empty=1, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-05-15 04:58:11,247 [INFO] pipeline.enrich_runner: [EnrichPipeline] Post-structural — CRITICAL=0, WARNING=63
+2026-05-15 04:58:11,247 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment AI Content Quality Check ──
+2026-05-15 04:58:11,251 [INFO] utils.structure_validator: [EnrichmentQuality] Post-AI check — 2 issues in 15 files (CRITICAL=0, WARNING=2)
+2026-05-15 04:58:11,251 [INFO] pipeline.enrich_runner: [EnrichPipeline] AI content quality — CRITICAL=0, WARNING=2 (checks: shortdesc, keywords, indexterms)
+2026-05-15 04:58:11,252 [INFO] pipeline.enrich_runner: [EnrichPipeline] Fix report — backend_errors=0 | fixed_by_zone1=0, fixed_by_ai=17, remaining=62, ai_obligations_missed=1, new_by_ai=1
+2026-05-15 04:58:11,256 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: /app/output/3a58c1d4-6008-422b-9308-c16124728d23/ai_reports/_agent_report.json
+2026-05-15 04:58:11,256 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 6: Suggestion Agent ──
+2026-05-15 04:58:11,266 [INFO] layers.layer6_fix_agent: L6/Suggest ── Started ──
+2026-05-15 04:58:11,267 [INFO] layers.layer6_fix_agent: L6/Suggest 29 issues (pre-dedup)
+2026-05-15 04:58:11,268 [INFO] layers.layer6_fix_agent: L6/Suggest 27 unique issues
+2026-05-15 04:58:11,269 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl empty_body ppe_required/ppe_required.dita
+2026-05-15 04:58:11,269 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_shortdesc ppe_required/ppe_required.dita
+2026-05-15 04:58:11,269 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl image_missing_alt silo_feeding_screens/silo_feeding_screens.dita
+2026-05-15 04:58:11,270 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl image_missing_alt maintenance_screens/maintenance_screens.dita
+2026-05-15 04:58:11,270 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl table_missing_title basic_layout_of_each_screen/basic_layout_of_each_screen.dita
+2026-05-15 04:58:11,270 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl image_missing_alt basic_layout_of_each_screen/basic_layout_of_each_screen.dita
+2026-05-15 04:58:11,271 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl image_missing_alt batch_system_screens/batch_system_screens.dita
+2026-05-15 04:58:11,271 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl table_missing_title revision_history/revision_history.dita
+2026-05-15 04:58:11,271 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl table_missing_title approval/approval.dita
+2026-05-15 04:58:11,272 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl table_missing_title safety_hazards/safety_hazards.dita
+2026-05-15 04:58:11,272 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl image_missing_alt batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita
+2026-05-15 04:58:11,272 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prolog ppe_required/ppe_required.dita
+2026-05-15 04:58:11,272 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_steps purpose_application/purpose_application.dita
+2026-05-15 04:58:11,273 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname approval/approval.dita
+2026-05-15 04:58:11,273 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname basic_layout_of_each_screen/basic_layout_of_each_screen.dita
+2026-05-15 04:58:11,273 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname batch_cullet_weighing_screens/batch_cullet_weighing_screens.dita
+2026-05-15 04:58:11,274 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname batch_system_screens/batch_system_screens.dita
+2026-05-15 04:58:11,274 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname comments/comments.dita
+2026-05-15 04:58:11,274 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname equipment_needed/equipment_needed.dita
+2026-05-15 04:58:11,274 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname maintenance_screens/maintenance_screens.dita
+2026-05-15 04:58:11,275 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname navigating_the_scada_operating_screens.dita
+2026-05-15 04:58:11,275 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname ppe_required/general.dita
+2026-05-15 04:58:11,275 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname purpose_application/purpose_application.dita
+2026-05-15 04:58:11,276 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname revision_history/revision_history.dita
+2026-05-15 04:58:11,276 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname safety_controls/safety_controls.dita
+2026-05-15 04:58:11,276 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname safety_hazards/safety_hazards.dita
+2026-05-15 04:58:11,276 [INFO] layers.layer6_fix_agent: L6/Suggest tmpl missing_prodname silo_feeding_screens/silo_feeding_screens.dita
+2026-05-15 04:58:11,277 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:11,278 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:11,280 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBfuyJtkATaJoDCu2W'}
+2026-05-15 04:58:11,280 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Step 1: Plug In the Power Adapter'
+2026-05-15 04:58:11,282 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task step_1_plug_in_the_power_adapter.dita
+2026-05-15 04:58:11,282 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:11,282 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc step_1_plug_in_the_power_adapter.dita
+2026-05-15 04:58:11,284 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:11,284 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog step_1_plug_in_the_power_adapter.dita
+2026-05-15 04:58:11,291 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Step 1: Plug In the Power Adapter' → type=task, confidence=low
+2026-05-15 04:58:11,292 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBfwxFRpzo75KWdBHc'}
+2026-05-15 04:58:11,292 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Step 1: Removing the Battery'
+2026-05-15 04:58:11,294 [INFO] layers.layer1_topic_classifier: L1 ✓ task→concept step_1_removing_the_battery.dita
+2026-05-15 04:58:11,294 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:11,294 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc step_1_removing_the_battery.dita
+2026-05-15 04:58:11,296 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:11,297 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog step_1_removing_the_battery.dita
+2026-05-15 04:58:11,303 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Step 1: Removing the Battery' → type=concept, confidence=low
+2026-05-15 04:58:11,304 [INFO] layers.layer6_fix_agent: L6/Suggest ✓ 27 suggestions
+2026-05-15 04:58:11,305 [INFO] layers.layer6_fix_agent: L6/Suggest ✓ saved 27 suggestions
+2026-05-15 04:58:11,305 [INFO] layers.layer6_fix_agent: L6/Suggest ── Done ──
+2026-05-15 04:58:11,306 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 6 — suggestions_generated=27
+2026-05-15 04:58:11,309 [INFO] pipeline.enrich_runner: [EnrichPipeline] Final element counts (post-enrichment): {'ol': 0, 'ul': 7, 'table': 4, 'image': 56, 'crosslink': 0, 'hyperlink': 0, 'concept': 3, 'task': 5, 'reference': 0, 'topic': 7}
+2026-05-15 04:58:11,313 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: /app/output/3a58c1d4-6008-422b-9308-c16124728d23/ai_reports/_agent_report.json
+2026-05-15 04:58:11,314 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: /app/output/3a58c1d4-6008-422b-9308-c16124728d23/ai_reports/pre_enrichment.json
+2026-05-15 04:58:11,316 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: /app/output/3a58c1d4-6008-422b-9308-c16124728d23/ai_reports/post_enrichment.json
+2026-05-15 04:58:11,316 [INFO] pipeline.enrich_runner: =================================================================
+2026-05-15 04:58:11,317 [INFO] pipeline.enrich_runner: [EnrichPipeline] JOB COMPLETED  job_id=3a58c1d4-6008-422b-9308-c16124728d23
+2026-05-15 04:58:11,317 [INFO] pipeline.enrich_runner: [EnrichPipeline] Log file : /app/output/3a58c1d4-6008-422b-9308-c16124728d23/ai_logs/ai_enrichment.log
+2026-05-15 04:58:11,317 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reports  : /app/output/3a58c1d4-6008-422b-9308-c16124728d23/ai_reports
+2026-05-15 04:58:11,317 [INFO] pipeline.enrich_runner: =================================================================
+2026-05-15 04:58:11,332 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup deleted after successful enrichment
+2026-05-15 04:58:11,351 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:11,353 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBgWBztTXBSQcS3iYD'}
+2026-05-15 04:58:11,353 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Step 2: Installing Memory'
+2026-05-15 04:58:11,355 [INFO] layers.layer1_topic_classifier: L1 ✓ task→concept step_2_installing_memory.dita
+2026-05-15 04:58:11,355 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:11,356 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc step_2_installing_memory.dita
+2026-05-15 04:58:11,358 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:11,358 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog step_2_installing_memory.dita
+2026-05-15 04:58:11,365 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Step 2: Installing Memory' → type=concept, confidence=low
+2026-05-15 04:58:11,431 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-05-15 04:58:11,432 [ERROR] layers.layer123_enrichment: L123 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb3mBgpnqHHYaCjSgyPzw'}
+2026-05-15 04:58:11,433 [WARNING] layers.layer123_enrichment: L123 ⊘ fallback 'Step 3: Replacing the Battery'
+2026-05-15 04:58:11,434 [INFO] layers.layer1_topic_classifier: L1 ✓ task→topic step_3_replacing_the_battery.dita
+2026-05-15 04:58:11,435 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:11,435 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc step_3_replacing_the_battery.dita
+2026-05-15 04:58:11,437 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-05-15 04:58:11,437 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog step_3_replacing_the_battery.dita
+2026-05-15 04:58:11,444 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Step 3: Replacing the Battery' → type=topic, confidence=low

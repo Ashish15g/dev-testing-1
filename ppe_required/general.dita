@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="general" xml:lang="en-us">
+  <title>General</title>
+  <shortdesc>Bump cap, safety glasses, hearing protection, long sleeves, safety-toed shoes, respirator or PAPR, cut-resistant gloves.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>General</keyword>
+        <keyword>safety</keyword>
+        <keyword>respirator</keyword>
+        <keyword>PAPR</keyword>
+        <keyword>Bump</keyword>
+        <keyword>glasses</keyword>
+        <indexterm>General</indexterm>
+        <indexterm>respirator</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <body>
+    <p>Bump cap, safety glasses, hearing protection, long sleeves, safety-toed shoes, respirator or PAPR, cut-resistant gloves.</p>
+    <p>
+      <b>Have a respirator or PAPR available in case of a silica release.</b>
+    </p>
+  </body>
+</topic>

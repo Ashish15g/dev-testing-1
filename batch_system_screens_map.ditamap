@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="batch_system_screens_map" xml:lang="en-us">
+  <title>Batch System Screens</title>
+  <topicref href="batch_system_screens/batch_system_screens.dita" navtitle="Batch System Screens" />
+</map>
